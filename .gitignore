@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*_cleaned.bib
+*_rebiber_tmp.bib
+nul
+.claude/
