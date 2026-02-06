@@ -526,6 +526,16 @@ def process_entry(entry: dict) -> dict:
             if inner_pub == "Association for Computational Linguistics":
                 continue
 
+        # Clip author list at 25
+        if field_name == "author":
+            inner = strip_braces(field_value)
+            authors = [a.strip() for a in inner.split(" and ")]
+            if len(authors) > 25:
+                inner = " and ".join(authors[:25]) + " and others"
+                field_value = "{" + inner + "}"
+            new_fields.append((field_name, field_value))
+            continue
+
         # Process title: protect capitalised words with {{}}
         if field_name == "title":
             inner = strip_braces(field_value)

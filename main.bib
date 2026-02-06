@@ -3,6 +3,7 @@
   author = {Alain, Guillaume and Bengio, Yoshua},
   year = 2017,
   month = feb,
+  url = {https://openreview.net/forum?id=HJ4-rAVtl},
   urldate = {2026-02-06},
   abstract = {Neural network models have a reputation for being black boxes. We propose a new method to better understand the roles and dynamics of the intermediate layers. Our method uses linear classifiers, referred to as "probes", where a probe can only use the hidden units of a given intermediate layer as discriminating features. Moreover, these probes cannot affect the training phase of a model, and they are generally added after training. We demonstrate how this can be used to develop a better intuition about models and to diagnose potential problems.},
   langid = {english},
@@ -30,6 +31,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2502.16147},
+  url = {http://arxiv.org/abs/2502.16147},
   urldate = {2025-07-11},
   abstract = {Humans are believed to perceive numbers on a logarithmic mental number line, where smaller values are represented with greater resolution than larger ones. This cognitive bias, supported by neuroscience and behavioral studies, suggests that numerical magnitudes are processed in a sublinear fashion rather than on a uniform linear scale. Inspired by this hypothesis, we investigate whether large language models (LLMs) exhibit a similar logarithmic-like structure in their internal numerical representations. By analyzing how numerical values are encoded across different layers of LLMs, we apply dimensionality reduction techniques such as PCA and PLS followed by geometric regression to uncover latent structures in the learned embeddings. Our findings reveal that the model's numerical representations exhibit sublinear spacing, with distances between values aligning with a logarithmic scale. This suggests that LLMs, much like humans, may encode numbers in a compressed, non-uniform manner.},
   archiveprefix = {arXiv},
@@ -46,6 +48,7 @@
   pages = {209--216},
   issn = {2165-8773},
   doi = {10.1109/PacificVis.2014.59},
+  url = {https://ieeexplore.ieee.org/document/6787169},
   urldate = {2025-07-27},
   abstract = {Multidimensional projection techniques provide an appealing approach for multivariate data analysis, for their ability to translate high-dimensional data into a low-dimensional representation that preserves neighborhood information. In recent years, pushed by the ever increasing data complexity in many areas, numerous advances in such techniques have been observed, primarily in terms of computational efficiency and support for interactive applications. Both these achievements were made possible due to the introduction of the concept of control points, which are used in many different multidimensional projection techniques. However, little attention has been drawn towards the process of control points selection. In this work we propose a novel multidimensional projection technique based on radial basis functions (RBF). Our method uses RBF to create a function that maps the data into a low-dimensional space by interpolating the previously calculated position of control points. We also present a built-in method for the control points selection based on "forward-selection" and "Orthogonal Least Squares" techniques. We demonstrate that the proposed selection process allows our technique to work with only a few control points while retaining the projection quality and avoiding redundant control points.},
   keywords = {Aerospace electronics,Dimensionality Reduction,High-Dimensional Data,Interpolation,Interpolation with Radial Basis Functions,Kernel,Least squares approximations,Mathematical model,Multidimensional Projection,Stress},
@@ -62,6 +65,7 @@
   pages = {10--20},
   publisher = {Association for Computational Linguistics},
   address = {Santa Fe, New Mexico, USA},
+  url = {https://aclanthology.org/W18-4702/},
   urldate = {2025-01-13},
   file = {C:\Users\frank\Zotero\storage\4GGPCVTZ\Araki et al. - 2018 - Interoperable Annotation of Events and Event Relations across Domains.pdf}
 }
@@ -70,6 +74,7 @@
   title = {Refusal in {{Language Models Is Mediated}} by a {{Single Direction}}},
   author = {Arditi, Andy and Obeso, Oscar and Syed, Aaquib and Paleka, Daniel and Panickssery, Nina and Gurnee, Wes and Nanda, Neel},
   year = 2024,
+  url = {https://openreview.net/forum?id=pH3XAQME6c},
   langid = {english},
   keywords = {notion},
   file = {C:\Users\frank\Zotero\storage\R8FYLIGU\Arditi et al. - Refusal in Language Models Is Mediated by a Single Direction.pdf}
@@ -83,6 +88,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Online},
   doi = {10.18653/v1/2020.acl-main.421},
+  url = {https://www.aclweb.org/anthology/2020.acl-main.421},
   urldate = {2025-07-27},
   abstract = {State-of-the-art unsupervised multilingual models (e.g., multilingual BERT) have been shown to generalize in a zero-shot crosslingual setting. This generalization ability has been attributed to the use of a shared subword vocabulary and joint training across multiple languages giving rise to deep multilingual abstractions. We evaluate this hypothesis by designing an alternative approach that transfers a monolingual model to new languages at the lexical level. More concretely, we first train a transformer-based masked language model on one language, and transfer it to a new language by learning a new embedding matrix with the same masked language modeling objective---freezing parameters of all other layers. This approach does not rely on a shared vocabulary or joint training. However, we show that it is competitive with multilingual BERT on standard cross-lingual classification benchmarks and on a new Cross-lingual Question Answering Dataset (XQuAD). Our results contradict common beliefs of the basis of the generalization ability of multilingual models and suggest that deep monolingual models learn some abstractions that generalize across languages. We also release XQuAD as a more comprehensive cross-lingual benchmark, which comprises 240 paragraphs and 1190 question-answer pairs from SQuAD v1.1 translated into ten languages by professional translators.},
   langid = {english},
@@ -97,6 +103,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Singapore},
   doi = {10.18653/v1/2023.findings-emnlp.68},
+  url = {https://aclanthology.org/2023.findings-emnlp.68},
   urldate = {2025-07-27},
   abstract = {While Large Language Models (LLMs) have shown exceptional performance in various tasks, one of their most prominent drawbacks is generating inaccurate or false information with a confident tone. In this paper, we provide evidence that the LLM's internal state can be used to reveal the truthfulness of statements. This includes both statements provided to the LLM, and statements that the LLM itself generates. Our approach is to train a classifier that outputs the probability that a statement is truthful, based on the hidden layer activations of the LLM as it reads or generates the statement. Experiments demonstrate that given a set of test sentences, of which half are true and half false, our trained classifier achieves an average of 71\% to 83\% accuracy labeling which sentences are true versus false, depending on the LLM base model. Furthermore, we explore the relationship between our classifier's performance and approaches based on the probability assigned to the sentence by the LLM. We show that while LLM-assigned sentence probability is related to sentence truthfulness, this probability is also dependent on sentence length and the frequencies of words in the sentence, resulting in our trained classifier providing a more reliable approach to detecting truthfulness, highlighting its potential to enhance the reliability of LLM-generated content and its practical applicability in real-world scenarios.},
   langid = {english},
@@ -116,6 +123,7 @@
   publisher = {MIT Press},
   address = {Cambridge, MA},
   doi = {10.1162/coli_a_00422},
+  url = {https://aclanthology.org/2022.cl-1.7/},
   urldate = {2025-07-18},
   abstract = {Probing classifiers have emerged as one of the prominent methodologies for interpreting and analyzing deep neural network models of natural language processing. The basic idea is simple---a classifier is trained to predict some linguistic property from a model's representations---and has been used to examine a wide variety of models and properties. However, recent studies have demonstrated various methodological limitations of this approach. This squib critically reviews the probing classifiers framework, highlighting their promises, shortcomings, and advances.},
   file = {C:\Users\frank\Zotero\storage\GC7NV89I\Belinkov - 2022 - Probing Classifiers Promises, Shortcomings, and Advances.pdf}
@@ -132,6 +140,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Vancouver, Canada},
   doi = {10.18653/v1/P17-1080},
+  url = {https://aclanthology.org/P17-1080/},
   urldate = {2025-07-27},
   abstract = {Neural machine translation (MT) models obtain state-of-the-art performance while maintaining a simple, end-to-end architecture. However, little is known about what these models learn about source and target languages during the training process. In this work, we analyze the representations learned by neural MT models at various levels of granularity and empirically evaluate the quality of the representations for learning morphology through extrinsic part-of-speech and morphological tagging tasks. We conduct a thorough investigation along several parameters: word-based vs. character-based representations, depth of the encoding layer, the identity of the target language, and encoder vs. decoder representations. Our data-driven, quantitative evaluation sheds light on important aspects in the neural MT system and its ability to capture word structure.},
   file = {C:\Users\frank\Zotero\storage\UDAXH4TL\Belinkov et al. - 2017 - What do Neural Machine Translation Models Learn about Morphology.pdf}
@@ -147,6 +156,7 @@
   pages = {2721--2726},
   publisher = {European Language Resources Association (ELRA)},
   address = {Istanbul, Turkey},
+  url = {https://aclanthology.org/L12-1182/},
   urldate = {2025-01-13},
   abstract = {We present an approach to annotating timelines in stories where events are linked together by temporal relations into a temporal dependency tree. This approach avoids the disconnected timeline problems of prior work, and results in timelines that are more suitable for temporal reasoning. We show that annotating timelines as temporal dependency trees is possible with high levels of inter-annotator agreement - Krippendorff`s Alpha of 0.822 on selecting event pairs, and of 0.700 on selecting temporal relation labels - even with the moderately sized relation set of BEFORE, AFTER, INCLUDES, IS-INCLUDED, IDENTITY and OVERLAP. We also compare several annotation schemes for identifying story events, and show that higher inter-annotator agreement can be reached by focusing on only the events that are essential to forming the timeline, skipping words in negated contexts, modal contexts and quoted speech.},
   file = {C:\Users\frank\Zotero\storage\JFWC3BP5\Bethard et al. - 2012 - Annotating Story Timelines as Temporal Dependency Structures.pdf}
@@ -168,6 +178,7 @@
   month = sep,
   pages = {11--18},
   doi = {10.1109/ICSC.2007.77},
+  url = {https://ieeexplore.ieee.org/document/4338327},
   urldate = {2023-10-03},
   abstract = {We propose and evaluate a linguistically motivated approach to extracting temporal structure necessary to build a timeline. We considered pairs of events in a verb-clause construction, where the first event is a verb and the second event is the head of a clausal argument to that verb. We selected all pairs of events in the TimeBank that participated in verb-clause constructions and annotated them with the labels before, overlap and after. The resulting corpus of 895 event-event temporal relations was then used to train a machine learning model. Using a combination of event-level features like tense and aspect with syntax-level features like the paths through the syntactic tree, we were able to train a support vector machine (SVM) model which could identify new temporal relations with 89.2\% accuracy. High accuracy models like these are a first step towards automatic extraction of timeline structures from text.},
   file = {C\:\\Users\\frank\\Zotero\\storage\\WA4ZU2AE\\Bethard et al. - 2007 - Timelines from Text Identification of Syntactic T.pdf;C\:\\Users\\frank\\Zotero\\storage\\ADZMK7KC\\4338327.html}
@@ -185,6 +196,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Bangkok, Thailand},
   doi = {10.18653/v1/2024.acl-long.807},
+  url = {https://aclanthology.org/2024.acl-long.807/},
   urldate = {2025-03-04},
   abstract = {What can large language models learn? By definition, language models (LM) are distributionsover strings. Therefore, an intuitive way of addressing the above question is to formalize it as a matter of learnability of classes of distributions over strings. While prior work in this direction focused on assessing the theoretical limits, in contrast, we seek to understand the empirical learnability. Unlike prior empirical work, we evaluate neural LMs on their home turf---learning probabilistic languages---rather than as classifiers of formal languages. In particular, we investigate the learnability of regular LMs (RLMs) by RNN and Transformer LMs. We empirically test the learnability of RLMs as a function of various complexity parameters of the RLM and the hidden state size of the neural LM. We find that the RLM rank, which corresponds to the size of linear space spanned by the logits of its conditional distributions, and the expected length of sampled strings are strong and significant predictors of learnability for both RNNs and Transformers. Several other predictors also reach significance, but with differing patterns between RNNs and Transformers.},
   keywords = {notion},
@@ -202,6 +214,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2105.07314},
+  url = {http://arxiv.org/abs/2105.07314},
   urldate = {2023-06-19},
   abstract = {Despite achieving state-of-the-art accuracy on temporal ordering of events, neural models showcase significant gaps in performance. Our work seeks to fill one of these gaps by leveraging an under-explored dimension of textual semantics: rich semantic information provided by explicit textual time cues. We develop STAGE, a system that consists of a novel temporal framework and a parser that can automatically extract time cues and convert them into representations suitable for integration with neural models. We demonstrate the utility of extracted cues by integrating them with an event ordering model using a joint BiLSTM and ILP constraint architecture. We outline the functionality of the 3-part STAGE processing approach, and show two methods of integrating its representations with the BiLSTM-ILP model: (i) incorporating semantic cues as additional features, and (ii) generating new constraints from semantic cues to be enforced in the ILP. We demonstrate promising results on two event ordering datasets, and highlight important issues in semantic cue representation and integration for future research.},
   archiveprefix = {arXiv},
@@ -213,7 +226,8 @@
   title = {Towards Monosemanticity: {{Decomposing}} Language Models with Dictionary Learning},
   author = {Bricken, Trenton and Templeton, Adly and Batson, Joshua and Chen, Brian and Jermyn, Adam and Conerly, Tom and Turner, Nick and Anil, Cem and Denison, Carson and Askell, Amanda and Lasenby, Robert and Wu, Yifan and Kravec, Shauna and Schiefer, Nicholas and Maxwell, Tim and Joseph, Nicholas and {Hatfield-Dodds}, Zac and Tamkin, Alex and Nguyen, Karina and McLean, Brayden and Burke, Josiah E and Hume, Tristan and Carter, Shan and Henighan, Tom and Olah, Christopher},
   year = 2023,
-  journal = {Transformer Circuits Thread}
+  journal = {Transformer Circuits Thread},
+  url = {https://transformer-circuits.pub/2023/monosemantic-features/index.html}
 }
 
 @article{brownLanguageModelsAre2020,
@@ -224,6 +238,7 @@
   journal = {arXiv:2005.14165 [cs]},
   eprint = {2005.14165},
   primaryclass = {cs},
+  url = {http://arxiv.org/abs/2005.14165},
   urldate = {2021-10-08},
   abstract = {Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.},
   archiveprefix = {arXiv},
@@ -241,6 +256,7 @@
   primaryclass = {cs, stat},
   publisher = {arXiv},
   doi = {10.48550/arXiv.1904.05811},
+  url = {http://arxiv.org/abs/1904.05811},
   urldate = {2023-05-31},
   abstract = {We investigate Relational Graph Attention Networks, a class of models that extends non-relational graph attention mechanisms to incorporate relational information, opening up these methods to a wider variety of problems. A thorough evaluation of these models is performed, and comparisons are made against established benchmarks. To provide a meaningful comparison, we retrain Relational Graph Convolutional Networks, the spectral counterpart of Relational Graph Attention Networks, and evaluate them under the same conditions. We find that Relational Graph Attention Networks perform worse than anticipated, although some configurations are marginally beneficial for modelling molecular properties. We provide insights as to why this may be, and suggest both modifications to evaluation strategies, as well as directions to investigate for future work.},
   archiveprefix = {arXiv},
@@ -256,6 +272,7 @@
   volume = {2},
   pages = {273--284},
   doi = {10.1162/tacl_a_00182},
+  url = {https://www.aclweb.org/anthology/Q14-1022},
   urldate = {2021-06-25},
   abstract = {Nathanael Chambers, Taylor Cassidy, Bill McDowell, Steven Bethard. Transactions of the Association for Computational Linguistics, Volume 2. 2014.},
   langid = {american},
@@ -266,6 +283,7 @@
   title = {Data {{Distributional Properties Drive Emergent In-Context Learning}} in {{Transformers}}},
   author = {Chan, Stephanie C Y and Santoro, Adam and Lampinen, Andrew K and Wang, Jane X and Singh, Aaditya K},
   year = 2022,
+  url = {https://openreview.net/forum?id=lHj-q9BSRjF},
   langid = {english},
   keywords = {notion},
   file = {C:\Users\frank\Zotero\storage\E7ILP9IP\Chan et al. - Data Distributional Properties Drive Emergent In-Context Learning in Transformers.pdf}
@@ -280,6 +298,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Abu Dhabi, United Arab Emirates},
   doi = {10.18653/v1/2022.emnlp-main.9},
+  url = {https://aclanthology.org/2022.emnlp-main.9},
   urldate = {2025-07-27},
   abstract = {We assess how multilingual language models maintain a shared multilingual representation space while still encoding language-sensitive information in each language. Using XLM-R as a case study, we show that languages occupy similar linear subspaces after mean-centering, evaluated based on causal effects on language modeling performance and direct comparisons between subspaces for 88 languages. The subspace means differ along language-sensitive axes that are relatively stable throughout middle layers, and these axes encode information such as token vocabularies. Shifting representations by language means is sufficient to induce token predictions in different languages. However, we also identify stable languageneutral axes that encode information such as token positions and part-of-speech. We visualize representations projected onto languagesensitive and language-neutral axes, identifying language family and part-of-speech clusters, along with spirals, toruses, and curves representing token position information. These results demonstrate that multilingual language models encode information along orthogonal language-sensitive and language-neutral axes, allowing the models to extract a variety of features for downstream tasks and cross-lingual transfer learning.},
   langid = {english},
@@ -297,6 +316,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2409.14507},
+  url = {http://arxiv.org/abs/2409.14507},
   urldate = {2025-07-29},
   abstract = {Sparse Autoencoders (SAEs) aim to decompose the activation space of large language models (LLMs) into human-interpretable latent directions or features. As we increase the number of features in the SAE, hierarchical features tend to split into finer features ("math" may split into "algebra", "geometry", etc.), a phenomenon referred to as feature splitting. However, we show that sparse decomposition and splitting of hierarchical features is not robust. Specifically, we show that seemingly monosemantic features fail to fire where they should, and instead get "absorbed" into their children features. We coin this phenomenon feature absorption, and show that it is caused by optimizing for sparsity in SAEs whenever the underlying features form a hierarchy. We introduce a metric to detect absorption in SAEs, and validate our findings empirically on hundreds of LLM SAEs. Our investigation suggests that varying SAE sizes or sparsity is insufficient to solve this issue. We discuss the implications of feature absorption in SAEs and some potential approaches to solve the fundamental theoretical issues before SAEs can be used for interpreting LLMs robustly and at scale.},
   archiveprefix = {arXiv},
@@ -310,7 +330,8 @@
   author = {Chen, Wenhu and Wang, Xinyi and Wang, William Yang and Wang, William Yang},
   editor = {Vanschoren, J. and Yeung, S.},
   year = 2021,
-  volume = {1}
+  volume = {1},
+  url = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/1f0e3dad99908345f7439f8ffabdffc4-Paper-round2.pdf}
 }
 
 @inproceedings{chengClassifyingTemporalRelations2017,
@@ -324,6 +345,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Vancouver, Canada},
   doi = {10.18653/v1/P17-2001},
+  url = {https://aclanthology.org/P17-2001},
   urldate = {2024-02-15},
   abstract = {Temporal relation classification is becoming an active research field. Lots of methods have been proposed, while most of them focus on extracting features from external resources. Less attention has been paid to a significant advance in a closely related task: relation extraction. In this work, we borrow a state-of-the-art method in relation extraction by adopting bidirectional long short-term memory (Bi-LSTM) along dependency paths (DP). We make a ``common root'' assumption to extend DP representations of cross-sentence links. In the final comparison to two state-of-the-art systems on TimeBank-Dense, our model achieves comparable performance, without using external knowledge, as well as manually annotated attributes of entities (class, tense, polarity, etc.).},
   file = {C:\Users\frank\Zotero\storage\J7RMKQD7\Cheng_Miyao_2017_Classifying Temporal Relations by Bidirectional LSTM over Dependency Paths.pdf}
@@ -340,6 +362,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Online},
   doi = {10.18653/v1/2020.acl-main.478},
+  url = {https://www.aclweb.org/anthology/2020.acl-main.478},
   urldate = {2020-12-07},
   abstract = {Understanding discourse structures of news articles is vital to effectively contextualize the occurrence of a news event. To enable computational modeling of news structures, we apply an existing theory of functional discourse structure for news articles that revolves around the main event and create a human-annotated corpus of 802 documents spanning over four domains and three media sources. Next, we propose several document-level neural-network models to automatically construct news content structures. Finally, we demonstrate that incorporating system predicted news structures yields new state-of-the-art performance for event coreference resolution. The news documents we annotated are openly available and the annotations are publicly released for future research.},
   file = {C:\Users\frank\Zotero\storage\MGXVEHMI\Choubey et al_2020_Discourse as a Function of Event.pdf}
@@ -369,7 +392,8 @@
   pages = {1204--1228},
   publisher = {Association for Computational Linguistics},
   address = {Bangkok, Thailand},
-  doi = {10.18653/v1/2024.acl-long.66}
+  doi = {10.18653/v1/2024.acl-long.66},
+  url = {https://aclanthology.org/2024.acl-long.66/}
 }
 
 @inproceedings{conmyAutomatedCircuitDiscovery2023,
@@ -394,6 +418,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Online},
   doi = {10.18653/v1/2020.acl-main.536},
+  url = {https://aclanthology.org/2020.acl-main.536/},
   urldate = {2025-07-27},
   abstract = {We study the problem of multilingual masked language modeling, i.e. the training of a single model on concatenated text from multiple languages, and present a detailed study of several factors that influence why these models are so effective for cross-lingual transfer. We show, contrary to what was previously hypothesized, that transfer is possible even when there is no shared vocabulary across the monolingual corpora and also when the text comes from very different domains. The only requirement is that there are some shared parameters in the top layers of the multi-lingual encoder. To better understand this result, we also show that representations from monolingual BERT models in different languages can be aligned post-hoc quite effectively, strongly suggesting that, much like for non-contextual word embeddings, there are universal latent symmetries in the learned embedding spaces. For multilingual masked language modeling, these symmetries are automatically discovered and aligned during the joint training process.},
   file = {C:\Users\frank\Zotero\storage\H6VTGLET\Conneau et al. - 2020 - Emerging Cross-lingual Structure in Pretrained Language Models.pdf}
@@ -410,6 +435,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Miami, Florida, USA},
   doi = {10.18653/v1/2024.emnlp-main.967},
+  url = {https://aclanthology.org/2024.emnlp-main.967/},
   urldate = {2025-07-12},
   abstract = {Entity tracking is essential for complex reasoning. To perform in-context entity tracking, language models (LMs) must bind an entity to its attribute (e.g., bind a container to its content) to recall attribute for a given entity. For example, given a context mentioning ``The coffee is in Box Z, the stone is in Box M, the map is in Box H'', to infer ``Box Z contains the coffee'' later, LMs must bind ``Box Z'' to ``coffee''. To explain the binding behaviour of LMs, existing research introduces a Binding ID mechanism and states that LMs use a abstract concept called Binding ID (BI) to internally mark entity-attribute pairs. However, they have not directly captured the BI information from entity activations. In this work, we provide a novel view of the Binding ID mechanism by localizing the BI information. Specifically, we discover that there exists a low-rank subspace in the hidden state (or activation) of LMs, that primarily encodes BIs. To identify this subspace, we take principle component analysis as our first attempt and it is empirically proven to be effective. Moreover, we also discover that when editing representations along directions in the subspace, LMs tend to bind a given entity to other attributes accordingly. For example, by patching activations along the BI encoding direction we can make the LM to infer ``Box Z contains the stone'' and ``Box Z contains the map''.},
   file = {C:\Users\frank\Zotero\storage\J73L82E8\Dai et al. - 2024 - Representational Analysis of Binding in Language Models.pdf}
@@ -426,6 +452,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Abu Dhabi, United Arab Emirates (Hybrid)},
   doi = {10.18653/v1/2022.blackboxnlp-1.2},
+  url = {https://aclanthology.org/2022.blackboxnlp-1.2},
   urldate = {2024-09-27},
   abstract = {There has been a lot of interest in understanding what information is captured by hidden representations of language models (LMs). Typically, interpretation methods i) do not guarantee that the model actually uses the information found to be encoded, and ii) do not discover small subsets of neurons responsible for a considered phenomenon. Inspired by causal mediation analysis, we propose a method that discovers a small subset of neurons within a neural LM responsible for a particular linguistic phenomenon, i.e., subsets causing a change in the corresponding token emission probabilities. We use a differentiable relaxation to approximately search through the combinatorial space. An L\_0 regularization term ensures that the search converges to discrete and sparse solutions. We apply our method to analyze subject-verb number agreement and gender bias detection in LSTMs. We observe that it is fast and finds better solutions than alternatives such as REINFORCE and Integrated Gradients. Our experiments confirm that each of these phenomena is mediated through a small subset of neurons that do not play any other discernible role.},
   keywords = {notion},
@@ -444,6 +471,7 @@
   pages = {145--147},
   issn = {1364-6613},
   doi = {10.1016/S1364-6613(03)00055-X},
+  url = {https://www.sciencedirect.com/science/article/pii/S136466130300055X},
   urldate = {2025-07-14},
   abstract = {The recent discovery of number neurons allows for a dissection of the neuronal implementation of number representation. In a recent article, Nieder and Miller demonstrate a neural correlate of Weber's law, and thus resolve a classical debate in psychophysics: the mental number line seems to be logarithmic rather than linear.},
   file = {C:\Users\frank\Zotero\storage\VY6M6MXG\S136466130300055X.html}
@@ -471,6 +499,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Albuquerque, New Mexico},
   doi = {10.18653/v1/2025.naacl-short.47},
+  url = {https://aclanthology.org/2025.naacl-short.47/},
   urldate = {2025-07-11},
   abstract = {This paper investigates whether large language models (LLMs) utilize numerical attributes encoded in a low-dimensional subspace of theembedding space when answering questions involving numeric comparisons, e.g., Was Cristiano born before Messi? We first identified,using partial least squares regression, these subspaces, which effectively encode the numerical attributes associated with the entities in comparison prompts. Further, we demonstrate causality, by intervening in these subspaces to manipulate hidden states, thereby altering the LLM's comparison outcomes. Experiments conducted on three different LLMs showed that our results hold across different numerical attributes, indicating that LLMs utilize the linearly encoded information for numerical reasoning.},
   isbn = {979-8-89176-190-2},
@@ -495,6 +524,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2209.10652},
+  url = {http://arxiv.org/abs/2209.10652},
   urldate = {2025-03-05},
   abstract = {Neural networks often pack many unrelated concepts into a single neuron - a puzzling phenomenon known as 'polysemanticity' which makes interpretability much more challenging. This paper provides a toy model where polysemanticity can be fully understood, arising as a result of models storing additional sparse features in "superposition." We demonstrate the existence of a phase change, a surprising connection to the geometry of uniform polytopes, and evidence of a link to adversarial examples. We also discuss potential implications for mechanistic interpretability.},
   archiveprefix = {arXiv},
@@ -507,6 +537,7 @@
   booktitle = {The Thirteenth International Conference on Learning Representations},
   author = {Engels, Joshua and Michaud, Eric J and Liao, Isaac and Gurnee, Wes and Tegmark, Max},
   year = 2025,
+  url = {https://openreview.net/forum?id=d63a4AM4hb},
   keywords = {notion}
 }
 
@@ -517,6 +548,7 @@
   author = {Falck, Fabian and Wang, Ziyu and Holmes, Christopher C.},
   year = 2024,
   month = apr,
+  url = {https://openreview.net/forum?id=z4YTZ01NT4},
   urldate = {2025-03-05},
   abstract = {In-context learning (ICL) has emerged as a particularly remarkable characteristic of Large Language Models (LLM). Numerous works have postulated ICL as approximately Bayesian inference, rendering this a natural hypothesis. In this work, we analyse this hypothesis from a new angle through the *martingale property*, a fundamental requirement of a Bayesian learning system on exchangeable data. We show that the martingale property is a necessary condition for unambiguous predictions in such scenarios, and enables a principled, decomposed notion of uncertainty vital in trustworthy, safety-critical systems. We derive actionable checks with corresponding theory and test statistics which must hold if the martingale property is satisfied. We also examine if uncertainty in LLMs decreases as expected in Bayesian learning when more data is observed. In three experiments, we provide evidence for violations of the martingale property, and deviations from a Bayesian scaling behaviour of uncertainty, falsifying the hypothesis that ICL is Bayesian.},
   langid = {english},
@@ -530,6 +562,7 @@
   author = {Farrell, Eoin and Lau, Yeu-Tong and Conmy, Arthur},
   year = 2024,
   month = oct,
+  url = {https://openreview.net/forum?id=i4z0HrBiIA&noteId=7J7EM7peJH},
   urldate = {2025-07-27},
   abstract = {We investigate whether sparse autoencoders (SAEs) can be used to remove knowledge from language models. We use the biology subset of the Weapons of Mass Destruction Proxy dataset and test on the gemma-2b-it and gemma-2-2b-it language models. We demonstrate that individual interpretable biology-related SAE features can be used to unlearn a subset of WMDP-Bio questions with minimal side-effects in domains other than biology. Our results suggest that negative scaling of feature activations is necessary and that zero ablating features is ineffective. We find that intervening using multiple SAE features simultaneously can unlearn multiple different topics, but with similar or larger unwanted side-effects than the existing Representation Misdirection for Unlearning technique. Current SAE quality or intervention techniques would need to improve to make SAE-based unlearning comparable to the existing fine-tuning based techniques.},
   langid = {english},
@@ -540,7 +573,8 @@
   title = {Test of {{Time}}: {{A Benchmark}} for {{Evaluating LLMs}} on {{Temporal Reasoning}}},
   booktitle = {The {{Thirteenth International Conference}} on {{Learning Representations}}},
   author = {Fatemi, Bahare and Kazemi, Mehran and Tsitsulin, Anton and Malkan, Karishma and Yim, Jinyeong and Palowitch, John and Seo, Sungyong and Halcrow, Jonathan and Perozzi, Bryan},
-  year = 2025
+  year = 2025,
+  url = {https://openreview.net/forum?id=44CoQe6VCq}
 }
 
 @misc{fengGenericTemporalReasoning2023,
@@ -553,6 +587,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2212.10467},
+  url = {http://arxiv.org/abs/2212.10467},
   urldate = {2023-06-12},
   abstract = {Temporal reasoning is the task of predicting temporal relations of event pairs. While temporal reasoning models can perform reasonably well on in-domain benchmarks, we have little idea of these systems' generalizability due to existing datasets' limitations. In this work, we introduce a novel task named TODAY that bridges this gap with temporal differential analysis, which as the name suggests, evaluates whether systems can correctly understand the effect of incremental changes. Specifically, TODAY introduces slight contextual changes for given event pairs, and systems are asked to tell how this subtle contextual change would affect relevant temporal relation distributions. To facilitate learning, TODAY also annotates human explanations. We show that existing models, including GPT-3.5, drop to random guessing on TODAY, suggesting that they heavily rely on spurious information rather than proper reasoning for temporal predictions. On the other hand, we show that TODAY's supervision style and explanation annotations can be used in joint learning, encouraging models to use more appropriate signals during training and thus outperform across several benchmarks. TODAY can also be used to train models to solicit incidental supervision from noisy sources such as GPT-3.5, thus moving us more toward the goal of generic temporal reasoning systems.},
   archiveprefix = {arXiv},
@@ -566,6 +601,7 @@
   author = {Feng, Jiahai and Steinhardt, Jacob},
   year = 2023,
   month = oct,
+  url = {https://openreview.net/forum?id=zb3b6oKO77},
   urldate = {2025-07-13},
   abstract = {Language models (LMs) can recall facts mentioned in context, as shown by their performance on reading comprehension tasks. When the context describes facts about more than one entity, the LM has to correctly bind attributes to their corresponding entity. We show, via causal experiments, that LMs' internal activations represent binding information by exhibiting appropriate binding ID vectors at the entity and attribute positions. We further show that binding ID vectors form a subspace and often transfer across tasks. Our results demonstrate that LMs learn interpretable strategies for representing symbolic knowledge in context, and that studying context activations is a fruitful direction for understanding LM cognition.},
   langid = {english},
@@ -579,6 +615,7 @@
   author = {Ferrando, Javier and Obeso, Oscar Balcells and Rajamanoharan, Senthooran and Nanda, Neel},
   year = 2024,
   month = oct,
+  url = {https://openreview.net/forum?id=WCRQFlji2q},
   urldate = {2025-03-05},
   abstract = {Hallucinations in large language models are a widespread problem, yet the mechanisms behind whether models will hallucinate are poorly understood, limiting our ability to solve this problem. Using sparse autoencoders as an interpretability tool, we discover that a key part of these mechanisms is entity recognition, where the model detects if an entity is one it can recall facts about. Sparse autoencoders uncover meaningful directions in the representation space, these detect whether the model recognizes an entity, e.g. detecting it doesn't know about an athlete or a movie. This shows that models can have self-knowledge: internal representations about their own capabilities. These directions are causally relevant: capable of steering the model to refuse to answer questions about known entities, or to hallucinate attributes of unknown entities when it would otherwise refuse. We demonstrate that despite the sparse autoencoders being trained on the base model, these directions have a causal effect on the chat model's refusal behavior, suggesting that chat finetuning has repurposed this existing mechanism. Furthermore, we provide an initial exploration into the mechanistic role of these directions in the model, finding that they disrupt the attention of downstream heads that typically move entity attributes to the final token.},
   langid = {english},
@@ -589,7 +626,8 @@
 @inproceedings{ferro2003StandardAnnotation2004,
   title = {2003 {{Standard}} for the {{Annotation}} of {{Temporal Expressions}}},
   author = {Ferro, Lisa and Gerber, Laurie and Mani, Inderjeet and Sundheim, Beth M. and Wilson, George},
-  year = 2004
+  year = 2004,
+  url = {https://api.semanticscholar.org/CorpusID:61522251}
 }
 
 @article{gaizauskasRobertGaizauskasAndrea,
@@ -613,6 +651,7 @@
   publisher = {MIT Press},
   address = {Cambridge, MA},
   doi = {10.1162/coli_a_00524},
+  url = {https://aclanthology.org/2024.cl-3.8/},
   urldate = {2025-07-09},
   abstract = {Rapid advancements of large language models (LLMs) have enabled the processing, understanding, and generation of human-like text, with increasing integration into systems that touch our social sphere. Despite this success, these models can learn, perpetuate, and amplify harmful social biases. In this article, we present a comprehensive survey of bias evaluation and mitigation techniques for LLMs. We first consolidate, formalize, and expand notions of social bias and fairness in natural language processing, defining distinct facets of harm and introducing several desiderata to operationalize fairness for LLMs. We then unify the literature by proposing three intuitive taxonomies, two for bias evaluation, namely, metrics and datasets, and one for mitigation. Our first taxonomy of metrics for bias evaluation disambiguates the relationship between metrics and evaluation datasets, and organizes metrics by the different levels at which they operate in a model: embeddings, probabilities, and generated text. Our second taxonomy of datasets for bias evaluation categorizes datasets by their structure as counterfactual inputs or prompts, and identifies the targeted harms and social groups; we also release a consolidation of publicly available datasets for improved access. Our third taxonomy of techniques for bias mitigation classifies methods by their intervention during pre-processing, in-training, intra-processing, and post-processing, with granular subcategories that elucidate research trends. Finally, we identify open problems and challenges for future work. Synthesizing a wide range of recent research, we aim to provide a clear guide of the existing literature that empowers researchers and practitioners to better understand and prevent the propagation of bias in LLMs.},
   keywords = {notion},
@@ -638,6 +677,7 @@
   pages = {3844--3850},
   publisher = {European Language Resources Association (ELRA)},
   address = {Portoro\v z, Slovenia},
+  url = {https://aclanthology.org/L16-1608},
   urldate = {2023-02-11},
   abstract = {We propose a way of enriching the TimeML annotations of TimeBank by adding information about the Topic Time in terms of Klein (1994). The annotations are partly automatic, partly inferential and partly manual. The corpus was converted into the native format of the annotation software GraphAnno and POS-tagged using the Stanford bidirectional dependency network tagger. On top of each finite verb, a FIN-node with tense information was created, and on top of any FIN-node, a TOPICTIME-node, in accordance with Klein's (1994) treatment of finiteness as the linguistic correlate of the Topic Time. Each TOPICTIME-node is linked to a MAKEINSTANCE-node representing an (instantiated) event in TimeML (Pustejovsky et al. 2005), the markup language used for the annotation of TimeBank. For such links we introduce a new category, ELINK. ELINKs capture the relationship between the Topic Time (TT) and the Time of Situation (TSit) and have an aspectual interpretation in Klein's (1994) theory. In addition to these automatic and inferential annotations, some TLINKs were added manually. Using an example from the corpus, we show that the inclusion of the Topic Time in the annotations allows for a richer representation of the temporal structure than does TimeML. A way of representing this structure in a diagrammatic form similar to the T-Box format (Verhagen, 2007) is proposed.},
   file = {C:\Users\frank\Zotero\storage\L2IHIUR8\Gast et al_2016_Enriching TimeBank.pdf}
@@ -652,6 +692,7 @@
   pages = {160--187},
   publisher = {PMLR},
   issn = {2640-3498},
+  url = {https://proceedings.mlr.press/v236/geiger24a.html},
   urldate = {2025-03-05},
   abstract = {Causal abstraction is a promising theoretical framework for explainable artificial intelligence that defines when an interpretable high-level causal model is a faithful simplification of a low-level deep learning system. However, existing causal abstraction methods have two major limitations: they require a brute-force search over alignments between the high-level model and the low-level one, and they presuppose that variables in the high-level model will align with disjoint sets of neurons in the low-level one. In this paper, we present distributed alignment search (DAS), which overcomes these limitations. In DAS, we find the alignment between high-level and low-level models using gradient descent rather than conducting a brute-force search, and we allow individual neurons to play multiple distinct roles by analyzing representations in non-standard bases---distributed representations. Our experiments show that DAS can discover internal structure that prior approaches miss. Overall, DAS removes previous obstacles to uncovering conceptual structure in trained neural nets.},
   langid = {english},
@@ -669,6 +710,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2503.19786},
+  url = {http://arxiv.org/abs/2503.19786},
   urldate = {2025-07-08},
   abstract = {We introduce Gemma 3, a multimodal addition to the Gemma family of lightweight open models, ranging in scale from 1 to 27 billion parameters. This version introduces vision understanding abilities, a wider coverage of languages and longer context - at least 128K tokens. We also change the architecture of the model to reduce the KV-cache memory that tends to explode with long context. This is achieved by increasing the ratio of local to global attention layers, and keeping the span on local attention short. The Gemma 3 models are trained with distillation and achieve superior performance to Gemma 2 for both pre-trained and instruction finetuned versions. In particular, our novel post-training recipe significantly improves the math, chat, instruction-following and multilingual abilities, making Gemma3-4B-IT competitive with Gemma2-27B-IT and Gemma3-27B-IT comparable to Gemini-1.5-Pro across benchmarks. We release all our models to the community.},
   archiveprefix = {arXiv},
@@ -687,6 +729,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Online and Punta Cana, Dominican Republic},
   doi = {10.18653/v1/2021.emnlp-main.446},
+  url = {https://aclanthology.org/2021.emnlp-main.446},
   urldate = {2024-09-27},
   abstract = {Feed-forward layers constitute two-thirds of a transformer model's parameters, yet their role in the network remains under-explored. We show that feed-forward layers in transformer-based language models operate as key-value memories, where each key correlates with textual patterns in the training examples, and each value induces a distribution over the output vocabulary. Our experiments show that the learned patterns are human-interpretable, and that lower layers tend to capture shallow patterns, while upper layers learn more semantic ones. The values complement the keys' input patterns by inducing output distributions that concentrate probability mass on tokens likely to appear immediately after each pattern, particularly in the upper layers. Finally, we demonstrate that the output of a feed-forward layer is a composition of its memories, which is subsequently refined throughout the model's layers via residual connections to produce the final output distribution.},
   keywords = {notion},
@@ -704,6 +747,7 @@
   primaryclass = {stat},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2009.08136},
+  url = {http://arxiv.org/abs/2009.08136},
   urldate = {2025-07-13},
   abstract = {Multidimensional Scaling (MDS) is one of the first fundamental manifold learning methods. It can be categorized into several methods, i.e., classical MDS, kernel classical MDS, metric MDS, and non-metric MDS. Sammon mapping and Isomap can be considered as special cases of metric MDS and kernel classical MDS, respectively. In this tutorial and survey paper, we review the theory of MDS, Sammon mapping, and Isomap in detail. We explain all the mentioned categories of MDS. Then, Sammon mapping, Isomap, and kernel Isomap are explained. Out-of-sample embedding for MDS and Isomap using eigenfunctions and kernel mapping are introduced. Then, Nystrom approximation and its use in landmark MDS and landmark Isomap are introduced for big data embedding. We also provide some simulations for illustrating the embedding by these methods.},
   archiveprefix = {arXiv},
@@ -746,6 +790,7 @@
   pages = {2202009 KB},
   publisher = {Linguistic Data Consortium},
   doi = {10.35111/PCBV-JQ63},
+  url = {https://catalog.ldc.upenn.edu/LDC2002T31},
   urldate = {2023-06-22},
   abstract = {{$<$}h3{$>$}Introduction{$<$}/h3{$>$} The AQUAINT Corpus, Linguistic Data Consortium (LDC) catalog number LDC2002T31 and ISBN 1-58563-240-6 consists of newswire text data in English, drawn from three sources: the Xinhua News Service (People's Republic of China), the New York Times News Service, and the Associated Press Worldstream News Service. It was prepared by the LDC for the AQUAINT Project, and will be used in official benchmark evaluations conducted by National Institute of Standards and Technology (NIST). {$<$}h3{$>$}Data{$<$}/h3{$>$} {$<$}p{$>$}The data files contain roughly 375 million words correlating to about 3GB of data. The text data are separated into directories by source (apw, nyt, xie); within each source, data files are subdivided by year, and within each year, there is one file per date of collection. Each file is named to reflect the source and date, and contains a stream of SGML-tagged text data presenting the series of news stories reported on the given date as a concatenation of DOC elements (i.e. blocks of text bounded by and tags). {$<$}/p{$><$}p{$>$}All data files are published in compressed form, using the GNU "gzip" utility; as such, all files have a ".gz" extension, and will have null file name extension when uncompressed in the usual way (i.e. just the base file name, consisting of "YYYYMMDD\_SRC"). {$<$}/p{$><$}p{$>$}While all the data files are covered by a single DTD, it is not the case that they all have a single pattern of markup. Rather, all files share a core markup structure, with minor variations in the peripheral regions of each DOC element, and the DTD has been written to accommodate the variations. {$<$}/p{$><$}h3{$>$}Updates{$<$}/h3{$>$} {$<$}p{$>$}19980614\_NYT.gz was left off in the conversion from CD to DVD. An update was issued on 09/13/2012. All copies ordered after this date will be complete. Contact {$<$}a rel="nofollow"{$>$}ldc@ldc.upenn.edu{$<$}/a{$>$} for more information.{$<$}/p{$>$}  {$<$}/br{$>$}  Portions \copyright{} 1998-2000 New York Times, \copyright{} 1998-2000 The Associated Press, \copyright{} 1996-2000 Xinhua News Agency, \copyright{} 2002 Trustees of the University of Pennsylvania}
 }
@@ -760,6 +805,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2407.21783},
+  url = {http://arxiv.org/abs/2407.21783},
   urldate = {2024-12-06},
   abstract = {Modern artificial intelligence (AI) systems are powered by foundation models. This paper presents a new set of foundation models, called Llama 3. It is a herd of language models that natively support multilinguality, coding, reasoning, and tool usage. Our largest model is a dense Transformer with 405B parameters and a context window of up to 128K tokens. This paper presents an extensive empirical evaluation of Llama 3. We find that Llama 3 delivers comparable quality to leading language models such as GPT-4 on a plethora of tasks. We publicly release Llama 3, including pre-trained and post-trained versions of the 405B parameter language model and our Llama Guard 3 model for input and output safety. The paper also presents the results of experiments in which we integrate image, video, and speech capabilities into Llama 3 via a compositional approach. We observe this approach performs competitively with the state-of-the-art on image, video, and speech recognition tasks. The resulting models are not yet being broadly released as they are still under development.},
   archiveprefix = {arXiv},
@@ -775,6 +821,7 @@
   month = jun,
   journal = {Transactions on Machine Learning Research},
   issn = {2835-8856},
+  url = {https://openreview.net/forum?id=JYs1R9IMJr},
   urldate = {2025-07-27},
   abstract = {Despite rapid adoption and deployment of large language models (LLMs), the internal computations of these models remain opaque and poorly understood. In this work, we seek to understand how high-level human-interpretable features are represented within the internal neuron activations of LLMs. We train \$k\$-sparse linear classifiers (probes) on these internal activations to predict the presence of features in the input; by varying the value of \$k\$ we study the sparsity of learned representations and how this varies with model scale. With \$k=1\$, we localize individual neurons that are highly relevant for a particular feature and perform a number of case studies to illustrate general properties of LLMs. In particular, we show that early layers make use of sparse combinations of neurons to represent many features in superposition, that middle layers have seemingly dedicated neurons to represent higher-level contextual features, and that increasing scale causes representational sparsity to increase on average, but there are multiple types of scaling dynamics. In all, we probe for over 100 unique features comprising 10 different categories in 7 different models spanning 70 million to 6.9 billion parameters.},
   langid = {english},
@@ -787,6 +834,7 @@
   author = {Gurnee, Wes and Tegmark, Max},
   year = 2023,
   month = oct,
+  url = {https://openreview.net/forum?id=jE8xbmvFin},
   urldate = {2025-03-05},
   abstract = {The capabilities of large language models (LLMs) have sparked debate over whether such systems just learn an enormous collection of superficial statistics or a set of more coherent and grounded representations that reflect the real world. We find evidence for the latter by analyzing the learned representations of three spatial datasets (world, US, NYC places) and three temporal datasets (historical figures, artworks, news headlines) in the Llama-2 family of models. We discover that LLMs learn linear representations of space and time across multiple scales. These representations are robust to prompting variations and unified across different entity types (e.g. cities and landmarks). In addition, we identify individual "space neurons" and "time neurons" that reliably encode spatial and temporal coordinates. While further investigation is needed, our results suggest modern LLMs learn rich spatiotemporal representations of the real world and possess basic ingredients of a world model.},
   langid = {english},
@@ -804,6 +852,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2502.04577},
+  url = {http://arxiv.org/abs/2502.04577},
   urldate = {2025-04-02},
   abstract = {A widely used strategy to discover and understand language model mechanisms is circuit analysis. A circuit is a minimal subgraph of a model's computation graph that executes a specific task. We identify a gap in existing circuit discovery methods: they assume circuits are position-invariant, treating model components as equally relevant across input positions. This limits their ability to capture cross-positional interactions or mechanisms that vary across positions. To address this gap, we propose two improvements to incorporate positionality into circuits, even on tasks containing variable-length examples. First, we extend edge attribution patching, a gradient-based method for circuit discovery, to differentiate between token positions. Second, we introduce the concept of a dataset schema, which defines token spans with similar semantics across examples, enabling position-aware circuit discovery in datasets with variable length examples. We additionally develop an automated pipeline for schema generation and application using large language models. Our approach enables fully automated discovery of position-sensitive circuits, yielding better trade-offs between circuit size and faithfulness compared to prior work.},
   archiveprefix = {arXiv},
@@ -821,6 +870,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Hong Kong, China},
   doi = {10.18653/v1/D19-1041},
+  url = {https://aclanthology.org/D19-1041},
   urldate = {2023-03-27},
   abstract = {We propose a joint event and temporal relation extraction model with shared representation learning and structured prediction. The proposed method has two advantages over existing work. First, it improves event representation by allowing the event and relation modules to share the same contextualized embeddings and neural representation learner. Second, it avoids error propagation in the conventional pipeline systems by leveraging structured inference and learning methods to assign both the event labels and the temporal relation labels jointly. Experiments show that the proposed method can improve both event extraction and temporal relation extraction over state-of-the-art systems, with the end-to-end F1 improved by 10\% and 6.8\% on two benchmark datasets respectively.},
   file = {C:\Users\frank\Zotero\storage\VEDDLYEM\Han et al_2019_Joint Event and Temporal Relation Extraction with Shared Representations and.pdf}
@@ -838,6 +888,7 @@
   publisher = {Nature Publishing Group},
   issn = {2662-8449},
   doi = {10.1038/s43586-024-00363-x},
+  url = {https://www.nature.com/articles/s43586-024-00363-x},
   urldate = {2025-07-27},
   abstract = {Uniform manifold approximation and projection is a nonlinear dimension reduction method often used for visualizing data and as pre-processing for further machine-learning tasks such as clustering. In this Primer, we provide an introduction to the uniform manifold approximation and projection algorithm, the intuitions behind how it works, how best to apply it on data and how to interpret and understand results.},
   copyright = {2024 Crown},
@@ -856,6 +907,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Bangkok, Thailand},
   doi = {10.18653/v1/2024.acl-short.18},
+  url = {https://aclanthology.org/2024.acl-short.18/},
   urldate = {2025-05-21},
   abstract = {Language models (LMs) can express factual knowledge involving numeric properties such as Karl Popper was born in 1902. However, how this information is encoded in the model`s internal representations is not understood well. Here, we introduce a method for finding and editing representations of numeric properties such as an entity`s birth year. We find directions that encode numeric properties monotonically, in an interpretable fashion. When editing representations along these directions, LM output changes accordingly. For example, by patching activations along a ``birthyear'' direction we can make the LM express an increasingly late birthyear. Property-encoding directions exist across several numeric properties in all models under consideration, suggesting the possibility that monotonic representation of numeric properties consistently emerges during LM pretraining.Code: https://github.com/bheinzerling/numeric-property-reprA long version of this short paper is available at: https://arxiv.org/abs/2403.10381},
   keywords = {notion},
@@ -873,6 +925,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Hong Kong, China},
   doi = {10.18653/v1/D19-1275},
+  url = {https://aclanthology.org/D19-1275/},
   urldate = {2025-07-25},
   abstract = {Probes, supervised models trained to predict properties (like parts-of-speech) from representations (like ELMo), have achieved high accuracy on a range of linguistic tasks. But does this mean that the representations encode linguistic structure or just that the probe has learned the linguistic task? In this paper, we propose control tasks, which associate word types with random outputs, to complement linguistic tasks. By construction, these tasks can only be learned by the probe itself. So a good probe, (one that reflects the representation), should be selective, achieving high linguistic task accuracy and low control task accuracy. The selectivity of a probe puts linguistic task accuracy in context with the probe's capacity to memorize from word types. We construct control tasks for English part-of-speech tagging and dependency edge prediction, and show that popular probes on ELMo representations are not selective. We also find that dropout, commonly used to control probe complexity, is ineffective for improving selectivity of MLPs, but that other forms of regularization are effective. Finally, we find that while probes on the first layer of ELMo yield slightly better part-of-speech tagging accuracy than the second, probes on the second layer are substantially more selective, which raises the question of which layer better represents parts-of-speech.},
   file = {C:\Users\frank\Zotero\storage\GU52SI2C\Hewitt and Liang - 2019 - Designing and Interpreting Probes with Control Tasks.pdf}
@@ -889,6 +942,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Minneapolis, Minnesota},
   doi = {10.18653/v1/N19-1419},
+  url = {https://aclanthology.org/N19-1419/},
   urldate = {2025-07-27},
   abstract = {Recent work has improved our ability to detect linguistic knowledge in word representations. However, current methods for detecting syntactic knowledge do not test whether syntax trees are represented in their entirety. In this work, we propose a structural probe, which evaluates whether syntax trees are embedded in a linear transformation of a neural network's word representation space. The probe identifies a linear transformation under which squared L2 distance encodes the distance between words in the parse tree, and one in which squared L2 norm encodes depth in the parse tree. Using our probe, we show that such transformations exist for both ELMo and BERT but not in baselines, providing evidence that entire syntax trees are embedded implicitly in deep models' vector geometry.},
   file = {C:\Users\frank\Zotero\storage\6BI6XJFU\Hewitt and Manning - 2019 - A Structural Probe for Finding Syntax in Word Representations.pdf}
@@ -905,6 +959,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Vienna, Austria},
   doi = {10.18653/v1/2025.findings-acl.1111},
+  url = {https://aclanthology.org/2025.findings-acl.1111/},
   urldate = {2026-02-06},
   abstract = {Large language models (LLMs) excel on a variety of reasoning benchmarks, but previous studies suggest they sometimes struggle to generalize to unseen questions, potentially due to over-reliance on memorized training examples. However, the precise conditions under which LLMs switch between reasoning and memorization during text generation remain unclear. In this work, we provide a mechanistic understanding of LLMs' reasoning-memorization dynamics by identifying a set of linear features in the model's residual stream that govern the balance between genuine reasoning and memory recall. These features not only distinguish reasoning tasks from memory-intensive ones but can also be manipulated to causally influence model performance on reasoning tasks. Additionally, we show that intervening in these reasoning features helps the model more accurately activate the most relevant problem-solving capabilities during answer generation. Our findings offer new insights into the underlying mechanisms of reasoning and memory in LLMs and pave the way for the development of more robust and interpretable generative AI systems. Our code and data are at https://github.com/yihuaihong/Linear\_Reasoning\_Memory\_Features.},
   isbn = {979-8-89176-256-5},
@@ -922,6 +977,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Vienna, Austria},
   doi = {10.18653/v1/2025.findings-acl.1111},
+  url = {https://aclanthology.org/2025.findings-acl.1111/},
   urldate = {2025-09-03},
   abstract = {Large language models (LLMs) excel on a variety of reasoning benchmarks, but previous studies suggest they sometimes struggle to generalize to unseen questions, potentially due to over-reliance on memorized training examples. However, the precise conditions under which LLMs switch between reasoning and memorization during text generation remain unclear. In this work, we provide a mechanistic understanding of LLMs' reasoning-memorization dynamics by identifying a set of linear features in the model's residual stream that govern the balance between genuine reasoning and memory recall. These features not only distinguish reasoning tasks from memory-intensive ones but can also be manipulated to causally influence model performance on reasoning tasks. Additionally, we show that intervening in these reasoning features helps the model more accurately activate the most relevant problem-solving capabilities during answer generation. Our findings offer new insights into the underlying mechanisms of reasoning and memory in LLMs and pave the way for the development of more robust and interpretable generative AI systems. Our code and data are at https://github.com/yihuaihong/Linear\_Reasoning\_Memory\_Features.},
   isbn = {979-8-89176-256-5}
@@ -938,6 +994,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Toronto, Canada},
   doi = {10.18653/v1/2023.acl-long.536},
+  url = {https://aclanthology.org/2023.acl-long.536},
   urldate = {2023-08-28},
   abstract = {Event temporal relation extraction (ETRE) is usually formulated as a multi-label classification task, where each type of relation is simply treated as a one-hot label. This formulation ignores the meaning of relations and wipes out their intrinsic dependency. After examining the relation definitions in various ETRE tasks, we observe that all relations can be interpreted using the start and end time points of events. For example, relation Includes could be interpreted as event 1 starting no later than event 2 and ending no earlier than event 2. In this paper, we propose a unified event temporal relation extraction framework, which transforms temporal relations into logical expressions of time points and completes the ETRE by predicting the relations between certain time point pairs. Experiments on TB-Dense and MATRES show significant improvements over a strong baseline and outperform the state-of-the-art model by 0.3\% on both datasets. By representing all relations in a unified framework, we can leverage the relations with sufficient data to assist the learning of other relations, thus achieving stable improvement in low-data scenarios. When the relation definitions are changed, our method can quickly adapt to the new ones by simply modifying the logic expressions that map time points to new event relations. The code is released at https://github.com/AndrewZhe/A-Unified-Framework-for-ETRE},
   file = {C:\Users\frank\Zotero\storage\P8K47BQJ\Huang et al_2023_More than Classification.pdf}
@@ -949,6 +1006,7 @@
   author = {Huben, Robert and Cunningham, Hoagy and Smith, Logan Riggs and Ewart, Aidan and Sharkey, Lee},
   year = 2023,
   month = oct,
+  url = {https://openreview.net/forum?id=F76bwRSLeK},
   urldate = {2025-03-05},
   abstract = {One of the roadblocks to a better understanding of neural networks' internals is \textbackslash textit\textbraceleft polysemanticity\textbraceright, where neurons appear to activate in multiple, semantically distinct contexts. Polysemanticity prevents us from identifying concise, human-understandable explanations for what neural networks are doing internally. One hypothesised cause of polysemanticity is \textbackslash textit\textbraceleft superposition\textbraceright, where neural networks represent more features than they have neurons by assigning features to an overcomplete set of directions in activation space, rather than to individual neurons. Here, we attempt to identify those directions, using sparse autoencoders to reconstruct the internal activations of a language model. These autoencoders learn sets of sparsely activating features that are more interpretable and monosemantic than directions identified by alternative approaches, where interpretability is measured by automated methods. Moreover, we show that with our learned set of features, we can pinpoint the features that are causally responsible for counterfactual behaviour on the indirect object identification task \textbackslash citep\textbraceleft wang2022interpretability\textbraceright{} to a finer degree than previous decompositions. This work indicates that it is possible to resolve superposition in language models using a scalable, unsupervised method. Our method may serve as a foundation for future mechanistic interpretability work, which we hope will enable greater model transparency and steerability.},
   langid = {english},
@@ -966,6 +1024,7 @@
   pages = {20617--20642},
   publisher = {PMLR},
   issn = {2640-3498},
+  url = {https://proceedings.mlr.press/v235/huh24a.html},
   urldate = {2025-07-14},
   abstract = {We argue that representations in AI models, particularly deep networks, are converging. First, we survey many examples of convergence in the literature: over time and across multiple domains, the ways by which different neural networks represent data are becoming more aligned. Next, we demonstrate convergence across data modalities: as vision models and language models get larger, they measure distance between datapoints in a more and more alike way. We hypothesize that this convergence is driving toward a shared statistical model of reality, akin to Plato's concept of an ideal reality. We term such a representation the platonic representation and discuss several possible selective pressures toward it. Finally, we discuss the implications of these trends, their limitations, and counterexamples to our analysis.},
   langid = {english}
@@ -982,6 +1041,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Dublin, Ireland},
   doi = {10.18653/v1/2022.acl-short.26},
+  url = {https://aclanthology.org/2022.acl-short.26},
   urldate = {2024-02-15},
   abstract = {To understand a story with multiple events, it is important to capture the proper relations across these events. However, existing event relation extraction (ERE) framework regards it as a multi-class classification task and do not guarantee any coherence between different relation types, such as anti-symmetry. If a phone line ``died'' after ``storm'', then it is obvious that the ``storm'' happened before the ``died''. Current framework of event relation extraction do not guarantee this coherence and thus enforces it via constraint loss function (Wang et al., 2020). In this work, we propose to modify the underlying ERE model to guarantee coherence by representing each event as a box representation (BERE) without applying explicit constraints. From our experiments, BERE also shows stronger conjunctive constraint satisfaction while performing on par or better in F1 compared to previous models with constraint injection.},
   file = {C:\Users\frank\Zotero\storage\B8ZR6Y4P\Hwang et al_2022_Event-Event Relation Extraction using Probabilistic Box Embedding.pdf}
@@ -998,6 +1058,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Baltimore, Maryland, USA},
   doi = {10.3115/v1/W14-2903},
+  url = {https://aclanthology.org/W14-2903/},
   urldate = {2025-01-13},
   file = {C:\Users\frank\Zotero\storage\KTEU729A\Ikuta et al. - 2014 - Challenges of Adding Causation to Richer Event Descriptions.pdf}
 }
@@ -1026,6 +1087,7 @@
   pages = {9--45},
   issn = {0010-0277},
   doi = {10.1016/0010-0277(91)90031-X},
+  url = {https://www.sciencedirect.com/science/article/pii/001002779190031X},
   urldate = {2024-04-10},
   abstract = {Within the framework of Conceptual Semantics, a family of conceptual features and functions is developed that accounts for phenomena in the semantics of noun phrases such as the mass-count distinction, plurality, the partitive construction (a leg of the table), the constitutive construction (a house of wood), the ``Universal Packager'' (three coffees), and boundary words such as end, edge, and crust. Using the strong formal parallelism between noun phrase semantics and event structure that is a hallmark of the Conceptual Semantics approach, the features and functions of the NP system are applied to a wide range of problems in event structure, for example the analysis of the Vendler classes, the meaning of the progressive, the ``imperfective paradox'', and ``aktionsarten'' such as the syntactically unexpressed sense of repetition in The light flashed until dawn. Crucial to the analysis is that these features and functions can be expressed in syntactic structure either by being part of lexical conceptual structure, or by use of a morphological affix, or by being associated with the meaning of a construction such as N of NP or nominal compounding. Alternatively, they may remain unexpressed altogether, being introduced into the conceptual structure of a phrase by ``rules of construal''. This shows that lexical semantics and phrasal semantics interpenetrate deeply, and that there is no strict one-to-one correspondence between syntactic and semantic structures. In addition, the analysis provides further evidence that natural language semantics must be based on a psychological view of meaning --- it must be concerned with how language users are constructed to understand and schematize the world.},
   file = {C:\Users\frank\Zotero\storage\U9YNXZAE\001002779190031X.html}
@@ -1079,6 +1141,7 @@
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   doi = {10.1145/3459637.3482416},
+  url = {https://doi.org/10.1145/3459637.3482416},
   isbn = {978-1-4503-8446-9},
   keywords = {complex questions,knowledge graphs,temporal question answering}
 }
@@ -1093,6 +1156,7 @@
   publisher = {International World Wide Web Conferences Steering Committee},
   address = {Republic and Canton of Geneva, CHE},
   doi = {10.1145/3184558.3191536},
+  url = {https://doi.org/10.1145/3184558.3191536},
   isbn = {978-1-4503-5640-4},
   keywords = {benchmarks,question answering,temporal questions},
   file = {C:\Users\frank\Zotero\storage\E94ZDZVK\Jia et al. - 2018 - TempQuestions A Benchmark for Temporal Question Answering.pdf}
@@ -1108,6 +1172,7 @@
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   doi = {10.1145/3269206.3269247},
+  url = {https://doi.org/10.1145/3269206.3269247},
   isbn = {978-1-4503-6014-2},
   keywords = {question answering,question decomposition,temporal questions}
 }
@@ -1122,6 +1187,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Florence, Italy},
   doi = {10.18653/v1/P19-1237},
+  url = {https://aclanthology.org/P19-1237},
   urldate = {2023-05-01},
   abstract = {We investigate the problem of efficiently incorporating high-order features into neural graph-based dependency parsing. Instead of explicitly extracting high-order features from intermediate parse trees, we develop a more powerful dependency tree node representation which captures high-order information concisely and efficiently. We use graph neural networks (GNNs) to learn the representations and discuss several new configurations of GNN's updating and aggregation functions. Experiments on PTB show that our parser achieves the best UAS and LAS on PTB (96.0\%, 94.3\%) among systems without using any external resources.},
   file = {C:\Users\frank\Zotero\storage\NDY379GB\Ji et al. - 2019 - Graph-based Dependency Parsing with Graph Neural N.pdf}
@@ -1139,6 +1205,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Bangkok, Thailand},
   doi = {10.18653/v1/2024.findings-acl.70},
+  url = {https://aclanthology.org/2024.findings-acl.70/},
   urldate = {2025-01-03},
   abstract = {Recently, retrieval augmentation and tool augmentation have demonstrated a remarkable capability to expand the internal memory boundaries of language models (LMs) by providing external context. However, internal memory and external context inevitably clash, leading to knowledge conflicts within LMs. In this paper, we aim to interpret the mechanism of knowledge conflicts through the lens of information flow, and then mitigate conflicts by precise interventions at the pivotal point. We find there are some attention heads with opposite effects in the later layers, where memory heads can recall knowledge from internal memory, and context heads can retrieve knowledge from external context. Moreover, we reveal that the pivotal point at which knowledge conflicts emerge in LMs is the integration of inconsistent information flows by memory heads and context heads. Inspired by the insights, we propose a novel method called Pruning Head via PatH PatcHing (PH3), which can efficiently mitigate knowledge conflicts by pruning conflicting attention heads without updating model parameters. PH3 can flexibly control eight LMs to use internal memory (\textbackslash uparrow 44.0\%) or external context (\textbackslash uparrow 38.5\%). Moreover, PH3 can also improve the performance of LMs on open-domain QA tasks. We also conduct extensive experiments to demonstrate the cross-model, cross-relation, and cross-format generalization of our method. Our code is publicly available at https://github.com/jinzhuoran/MConflict/.}
 }
@@ -1154,6 +1221,7 @@
   pages = {558--573},
   publisher = {Association for Computational Linguistics},
   address = {Abu Dhabi, UAE},
+  url = {https://aclanthology.org/2025.coling-main.37/},
   urldate = {2026-02-06},
   abstract = {Large language models (LLMs) have shown remarkable performances across a wide range of tasks. However, the mechanisms by which these models encode tasks of varying complexities remain poorly understood. In this paper, we explore the hypothesis that LLMs process concepts of varying complexities in different layers, introducing the idea of ``Concept Depth'' to suggest that more complex concepts are typically acquired in deeper layers. Specifically, we categorize concepts based on their level of abstraction, defining them in the order of increasing complexity within factual, emotional, and inferential tasks. We conduct extensive probing experiments using layer-wise representations across various LLM families (Gemma, LLaMA, Qwen) on various datasets spanning the three domains of tasks. Our findings reveal that models could efficiently conduct probing for simpler tasks in shallow layers, and more complex tasks typically necessitate deeper layers for accurate understanding. Additionally, we examine how external factors, such as adding noise to the input and quantizing the model weights, might affect layer-wise representations. Our findings suggest that these factors can impede the development of a conceptual understanding of LLMs until deeper layers are explored. We hope that our proposed concept and experimental insights will enhance the understanding of the mechanisms underlying LLMs. Our codes are available at https://github.com/Luckfort/CD.},
   file = {C:\Users\frank\Zotero\storage\PECS8X4W\Jin et al. - 2025 - Exploring Concept Depth How Large Language Models Acquire Knowledge and Concept at Different Layers.pdf}
@@ -1165,6 +1233,7 @@
   author = {Jin, Mingyu and Mei, Kai and Xu, Wujiang and Sun, Mingjie and Tang, Ruixiang and Du, Mengnan and Liu, Zirui and Zhang, Yongfeng},
   year = 2025,
   month = jun,
+  url = {https://openreview.net/forum?id=1SMcxxQiSL},
   urldate = {2026-02-06},
   abstract = {Large language models (LLMs) have achieved remarkable success in contextual knowledge understanding. In this paper, we show for the first time that these concentrated massive values consistently emerge in specific regions of attention queries (Q) and keys (K) while not having such patterns in values (V) in various modern transformer-based LLMs. Through extensive experiments, we further demonstrate that these massive values play a critical role in interpreting contextual knowledge (i.e., knowledge obtained from the current context window) rather than in retrieving parametric knowledge stored within the model's parameters. Our further investigation of quantization strategies reveals that ignoring these massive values leads to a pronounced drop in performance on tasks requiring rich contextual understanding, aligning with our analysis. Finally, we trace the emergence of concentrated massive values and find that such concentration is caused by Rotary Positional Encoding (RoPE) and it appears since very first layers. These findings shed new light on how Q and K operate in LLMs and offer practical insights for model design and optimization. The code is available at https://github.com/MingyuJ666/Rope\_with\_LLM.},
   langid = {english},
@@ -1183,6 +1252,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Bangkok, Thailand},
   doi = {10.18653/v1/2024.acl-long.787},
+  url = {https://aclanthology.org/2024.acl-long.787/},
   urldate = {2025-03-04},
   abstract = {Chomsky and others have very directly claimed that large language models (LLMs) are equally capable of learning languages that are possible and impossible for humans to learn. However, there is very little published experimental evidence to support such a claim. Here, we develop a set of synthetic impossible languages of differing complexity, each designed by systematically altering English data with unnatural word orders and grammar rules. These languages lie on an impossibility continuum: at one end are languages that are inherently impossible, such as random and irreversible shuffles of English words, and on the other, languages that may not be intuitively impossible but are often considered so in linguistics, particularly those with rules based on counting word positions. We report on a wide range of evaluations to assess the capacity of GPT-2 small models to learn these uncontroversially impossible languages, and crucially, we perform these assessments at various stages throughout training to compare the learning process for each language. Our core finding is that GPT-2 struggles to learn impossible languages when compared to English as a control, challenging the core claim. More importantly, we hope our approach opens up a productive line of inquiry in which different LLM architectures are tested on a variety of impossible languages in an effort to learn more about how LLMs can be used as tools for these cognitive and typological investigations.},
   keywords = {notion},
@@ -1223,23 +1293,11 @@
   author = {Kantamneni, Subhash and Engels, Joshua and Rajamanoharan, Senthooran and Tegmark, Max and Nanda, Neel},
   year = 2025,
   month = jun,
+  url = {https://openreview.net/forum?id=rNfzT8YkgO&noteId=hA0Ptt2IOa},
   urldate = {2025-10-06},
   abstract = {Sparse autoencoders (SAEs) are a popular method for interpreting concepts represented in large language model (LLM) activations. However, there is a lack of evidence regarding the validity of their interpretations due to the lack of a ground truth for the concepts used by an LLM, and a growing number of works have presented problems with current SAEs. One alternative source of evidence would be demonstrating that SAEs improve performance on downstream tasks beyond existing baselines. We test this by applying SAEs to the real-world task of LLM activation probing in four regimes: data scarcity, class imbalance, label noise, and covariate shift. Due to the difficulty of detecting concepts in these challenging settings, we hypothesize that SAEs' basis of interpretable, concept-level latents should provide a useful inductive bias. However, although SAEs occasionally perform better than baselines on individual datasets, we are unable to design ensemble methods combining SAEs with baselines that consistently outperform ensemble methods solely using baselines. Additionally, although SAEs initially appear promising for identifying spurious correlations, detecting poor dataset quality, and training multi-token probes, we are able to achieve similar results with simple non-SAE baselines as well. Though we cannot discount SAEs' utility on other tasks, our findings highlight the shortcomings of current SAEs and the need to rigorously evaluate interpretability methods on downstream tasks with strong baselines.},
   langid = {english},
   file = {C:\Users\frank\Zotero\storage\E8IHZ7UN\Kantamneni et al. - 2025 - Are Sparse Autoencoders Useful A Case Study in Sparse Probing.pdf}
-}
-
-@inproceedings{kantamneniAreSparseAutoencoders2025a,
-  title = {Are {{Sparse Autoencoders Useful}}? {{A Case Study}} in {{Sparse Probing}}},
-  shorttitle = {Are {{Sparse Autoencoders Useful}}?},
-  booktitle = {Forty-Second {{International Conference}} on {{Machine Learning}}},
-  author = {Kantamneni, Subhash and Engels, Joshua and Rajamanoharan, Senthooran and Tegmark, Max and Nanda, Neel},
-  year = 2025,
-  month = jun,
-  urldate = {2026-02-06},
-  abstract = {Sparse autoencoders (SAEs) are a popular method for interpreting concepts represented in large language model (LLM) activations. However, there is a lack of evidence regarding the validity of their interpretations due to the lack of a ground truth for the concepts used by an LLM, and a growing number of works have presented problems with current SAEs. One alternative source of evidence would be demonstrating that SAEs improve performance on downstream tasks beyond existing baselines. We test this by applying SAEs to the real-world task of LLM activation probing in four regimes: data scarcity, class imbalance, label noise, and covariate shift. Due to the difficulty of detecting concepts in these challenging settings, we hypothesize that SAEs' basis of interpretable, concept-level latents should provide a useful inductive bias. However, although SAEs occasionally perform better than baselines on individual datasets, we are unable to design ensemble methods combining SAEs with baselines that consistently outperform ensemble methods solely using baselines. Additionally, although SAEs initially appear promising for identifying spurious correlations, detecting poor dataset quality, and training multi-token probes, we are able to achieve similar results with simple non-SAE baselines as well. Though we cannot discount SAEs' utility on other tasks, our findings highlight the shortcomings of current SAEs and the need to rigorously evaluate interpretability methods on downstream tasks with strong baselines.},
-  langid = {english},
-  file = {C:\Users\frank\Zotero\storage\NCR9ZNXH\Kantamneni et al. - 2025 - Are Sparse Autoencoders Useful A Case Study in Sparse Probing.pdf}
 }
 
 @article{kennewegTRAVELERBenchmarkEvaluating2025,
@@ -1247,7 +1305,8 @@
   author = {Kenneweg, Svenja and Deigm{\"o}ller, J{\"o}rg and Cimiano, Philipp and Eggert, Julian},
   year = 2025,
   journal = {ArXiv},
-  volume = {abs/2505.01325}
+  volume = {abs/2505.01325},
+  url = {https://api.semanticscholar.org/CorpusID:278310708}
 }
 
 @inproceedings{levyLanguageModelsEncode2025,
@@ -1261,6 +1320,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Albuquerque, New Mexico},
   doi = {10.18653/v1/2025.naacl-short.33},
+  url = {https://aclanthology.org/2025.naacl-short.33/},
   urldate = {2025-07-29},
   abstract = {Large language models (LLMs) frequently make errors when handling even simple numerical problems, such as comparing two small numbers. A natural hypothesis is that these errors stem from how LLMs represent numbers, and specifically, whether their representations of numbers capture their numeric values. We tackle this question from the observation that LLM errors on numerical tasks are often distributed across the digits of the answer rather than normally around its numeric value. Through a series of probing experiments and causal interventions, we show that LLMs internally represent numbers with individual circular representations per-digit in base 10.This digit-wise representation, as opposed to a value representation, sheds light on the error patterns of models on tasks involving numerical reasoning and could serve as a basis for future studies on analyzing numerical mechanisms in LLMs.},
   isbn = {979-8-89176-190-2},
@@ -1274,6 +1334,7 @@
   author = {Li, Kenneth and Hopkins, Aspen K. and Bau, David and Vi{\'e}gas, Fernanda and Pfister, Hanspeter and Wattenberg, Martin},
   year = 2022,
   month = sep,
+  url = {https://openreview.net/forum?id=DeG07_TcZvT},
   urldate = {2025-07-18},
   abstract = {Language models show a surprising range of capabilities, but the source of their apparent competence is unclear. Do these networks just memorize a collection of surface statistics, or do they rely on internal representations of the process that generates the sequences they see? We investigate this question by applying a variant of the GPT model to the task of predicting legal moves in a simple board game, Othello. Although the network has no a priori knowledge of the game or its rules, we uncover evidence of an emergent nonlinear internal representation of the board state. Interventional experiments indicate this representation can be used to control the output of the network and create "latent saliency maps" that can help explain predictions in human terms.},
   langid = {english},
@@ -1287,6 +1348,7 @@
   author = {Li, Kenneth and Patel, Oam and Vi{\'e}gas, Fernanda and Pfister, Hanspeter and Wattenberg, Martin},
   year = 2023,
   month = nov,
+  url = {https://openreview.net/forum?id=aLLuYpn83y},
   urldate = {2025-07-27},
   abstract = {We introduce Inference-Time Intervention (ITI), a technique designed to enhance the "truthfulness" of large language models (LLMs). ITI operates by shifting model activations during inference, following a learned set of directions across a limited number of attention heads. This intervention significantly improves the performance of LLaMA models on the TruthfulQA benchmark. On an instruction-finetuned LLaMA called Alpaca, ITI improves its truthfulness from \$32.5\textbackslash\%\$ to \$65.1\textbackslash\%\$. We identify a tradeoff between truthfulness and helpfulness and demonstrate how to balance it by tuning the intervention strength. ITI is minimally invasive and computationally inexpensive. Moreover, the technique is data efficient: while approaches like RLHF require extensive annotations, ITI locates truthful directions using only few hundred examples. Our findings suggest that LLMs may have an internal representation of the likelihood of something being true, even as they produce falsehoods on the surface.},
   langid = {english},
@@ -1298,6 +1360,7 @@
   booktitle = {Thirty-Seventh Conference on Neural Information Processing Systems},
   author = {Lindner, David and Kramar, Janos and Farquhar, Sebastian and Rahtz, Matthew and McGrath, Thomas and Mikulik, Vladimir},
   year = 2023,
+  url = {https://openreview.net/forum?id=tbbId8u7nP},
   keywords = {notion}
 }
 
@@ -1308,6 +1371,7 @@
   author = {Lin, Bill Yuchen and Ravichander, Abhilasha and Lu, Ximing and Dziri, Nouha and Sclar, Melanie and Chandu, Khyathi and Bhagavatula, Chandra and Choi, Yejin},
   year = 2023,
   month = oct,
+  url = {https://openreview.net/forum?id=wxJ0eXwwda},
   urldate = {2025-08-18},
   abstract = {Alignment tuning has become the de facto standard practice for enabling base large language models (LLMs) to serve as open-domain AI assistants. The alignment tuning process typically involves instruction learning through supervised fine-tuning (SFT) and preference tuning via reinforcement learning from human feedback (RLHF). A recent study, LIMA (Zhou et al., 2023), shows that using merely 1K examples for SFT can achieve significant alignment performance as well, suggesting that the effect of alignment tuning might be "superficial." This raises questions about how exactly the alignment tuning transforms a base LLM. We analyze the effect of alignment tuning by examining the token distribution shift between base LLMs and their aligned counterparts (e.g., Llama-2 and Llama-2-chat). Our findings reveal that base LLMs and their alignment-tuned versions perform nearly identically in decoding on the majority of token positions (i.e., they share the top-ranked tokens). Most distribution shifts occur with stylistic tokens (e.g., discourse markers, safety disclaimers). This direct evidence strongly supports the hypothesis that alignment tuning primarily learns to adopt the language style of AI assistants, and that the knowledge required for answering user queries predominantly comes from the base LLMs themselves. Based on these findings, we rethink the alignment of LLMs by posing the research question: how effectively can we align base LLMs without SFT or RLHF? To address this, we introduce a simple, tuning-free alignment method, URIAL (Untuned LLMs with Restyled In-context Alignment). URIAL achieves effective alignment purely through in-context learning (ICL) with base LLMs, requiring as few as three constant stylistic examples and a system prompt. We conduct a fine-grained and interpretable evaluation on a diverse set of examples, named just-eval-instruct. Results demonstrate that base LLMs with URIAL can match or even surpass the performance of LLMs aligned with SFT (Mistral-7b-Instruct) or SFT+RLHF (Llama-2-70b-chat). We show that the gap between tuning-free and tuning-based alignment methods can be significantly reduced through strategic prompting and ICL. Our findings on the superficial nature of alignment tuning and results with URIAL suggest that deeper analysis and theoretical understanding of alignment is crucial to future LLM research.},
   langid = {english},
@@ -1325,6 +1389,7 @@
   pages = {16855--16866},
   publisher = {{ELRA and ICCL}},
   address = {Torino, Italia},
+  url = {https://aclanthology.org/2024.lrec-main.1465/},
   urldate = {2025-07-09},
   abstract = {As Large Language Models (LLMs) become increasingly influential in reasoning tasks, ensuring their trustworthiness and introspective self-awareness is critical. This research introduces the Think-Solve-Verify (TSV) framework, an innovative strategy tailored to explore LLMs' trustworthiness, introspective self-awareness, and collaborative reasoning. This method accentuates a model's capability to construct introspective reasoning processes from answers and ensure their trustworthiness. The reasoning with TSV consistently performs at or near the top across the majority of datasets with a single interaction with LLM. Moreover, we refine the voting process of self-consistency within the Chain-of-Thought (CoT) approach, leading to notable accuracy enhancements. In our evaluations, this approach improved performance from 67.3\% to 72.8\% on the AQuA dataset. Furthermore, we delve into the model's ability to explain the given answers, highlighting the significance of discerning genuine comprehension from mere guesswork.},
   file = {C:\Users\frank\Zotero\storage\FYQ4VNVZ\Liu et al. - 2024 - Trustworthiness and Self-awareness in Large Language Models An Exploration through the Think-Solve-.pdf}
@@ -1341,6 +1406,7 @@
   pages = {1339--1352},
   publisher = {{ELRA and ICCL}},
   address = {Torino, Italia},
+  url = {https://aclanthology.org/2024.lrec-main.120},
   urldate = {2024-09-19},
   abstract = {Machine Translation (MT) has greatly advanced over the years due to the developments in deep neural networks. However, the emergence of Large Language Models (LLMs) like GPT-4 and ChatGPT is introducing a new phase in the MT domain. In this context, we believe that the future of MT is intricately tied to the capabilities of LLMs. These models not only offer vast linguistic understandings but also bring innovative methodologies, such as prompt-based techniques, that have the potential to further elevate MT. In this paper, we provide an overview of the significant enhancements in MT that are influenced by LLMs and advocate for their pivotal role in upcoming MT research and implementations. We highlight several new MT directions, emphasizing the benefits of LLMs in scenarios such as Long-Document Translation, Stylized Translation, and Interactive Translation. Additionally, we address the important concern of privacy in LLM-driven MT and suggest essential privacy-preserving strategies. By showcasing practical instances, we aim to demonstrate the advantages that LLMs offer, particularly in tasks like translating extended documents. We conclude by emphasizing the critical role of LLMs in guiding the future evolution of MT and offer a roadmap for future exploration in the sector.},
   file = {C:\Users\frank\Zotero\storage\CPYW6AWE\Lyu et al. - 2024 - A Paradigm Shift The Future of Machine Translation Lies with Large Language Models.pdf}
@@ -1355,6 +1421,7 @@
   number = {86},
   pages = {2579--2605},
   issn = {1533-7928},
+  url = {http://jmlr.org/papers/v9/vandermaaten08a.html},
   urldate = {2025-07-27},
   abstract = {We present a new technique called "t-SNE" that visualizes high-dimensional data by giving each datapoint a location in a two or three-dimensional map. The technique is a variation of Stochastic Neighbor Embedding (Hinton and Roweis, 2002) that is much easier to optimize, and produces significantly better visualizations by reducing the tendency to crowd points together in the center of the map. t-SNE is better than existing techniques at creating a single map that reveals structure at many different scales. This is particularly important for high-dimensional data that lie on several different, but related, low-dimensional manifolds, such as images ofobjects from multiple classes seen from multiple viewpoints. For visualizing the structure of very large data sets, we show how t-SNE can use random walks on neighborhood graphs to allow the implicit structure of all of the data to influence the way in which a subset of the data is displayed. We illustrate the performance of t-SNE on a wide variety of data sets and compare it with many other non-parametric visualization techniques, including Sammon mapping, Isomap, and Locally Linear Embedding. The visualizations produced by t-SNE are significantly better than those produced by the other techniques on almost all of the data sets.},
   file = {C:\Users\frank\Zotero\storage\I4CX3A4L\Maaten and Hinton - 2008 - Visualizing Data using t-SNE.pdf}
@@ -1370,6 +1437,7 @@
   pages = {56--65},
   publisher = {Association for Computational Linguistics},
   address = {Online},
+  url = {https://www.aclweb.org/anthology/2021.naacl-demos.7},
   urldate = {2021-06-09},
   abstract = {We present EventPlus, a temporal event understanding pipeline that integrates various state-of-the-art event understanding components including event trigger and type detection, event argument detection, event duration and temporal relation extraction. Event information, especially event temporal knowledge, is a type of common sense knowledge that helps people understand how stories evolve and provides predictive hints for future events. EventPlus as the first comprehensive temporal event understanding pipeline provides a convenient tool for users to quickly obtain annotations about events and their temporal information for any user-provided document. Furthermore, we show EventPlus can be easily adapted to other domains (e.g., biomedical domain). We make EventPlus publicly available to facilitate event-related information extraction and downstream applications.},
   file = {C:\Users\frank\Zotero\storage\CLBQSMMX\Ma et al. - 2021 - EventPlus A Temporal Event Understanding Pipeline.pdf}
@@ -1386,6 +1454,7 @@
   pages = {11058--11066},
   issn = {2374-3468},
   doi = {10.1609/aaai.v36i10.21354},
+  url = {https://ojs.aaai.org/index.php/AAAI/article/view/21354},
   urldate = {2023-03-27},
   abstract = {Understanding events entails recognizing the structural and temporal orders between event mentions to build event structures/graphs for input documents. To achieve this goal, our work addresses the problems of subevent relation extraction (SRE) and temporal event relation extraction (TRE) that aim to predict subevent and temporal relations between two given event mentions/triggers in texts. Recent state-of-the-art methods for such problems have employed transformer-based language models (e.g., BERT) to induce effective contextual representations for input event mention pairs. However, a major limitation of existing transformer-based models for SRE and TRE is that they can only encode input texts of limited length (i.e., up to 512 sub-tokens in BERT), thus unable to effectively capture important context sentences that are farther away in the documents. In this work, we introduce a novel method to better model document-level context with important context sentences for event-event relation extraction. Our method seeks to identify the most important context sentences for a given entity mention pair in a document and pack them into shorter documents to be consume entirely by transformer-based language models for representation learning. The REINFORCE algorithm is employed to train models where novel reward functions are presented to capture model performance, and context-based and knowledge-based similarity between sentences for our problem. Extensive experiments demonstrate the effectiveness of the proposed method with state-of-the-art performance on benchmark datasets.},
   copyright = {Copyright (c) 2022 Association for the Advancement of Artificial Intelligence},
@@ -1404,6 +1473,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2502.01540},
+  url = {http://arxiv.org/abs/2502.01540},
   urldate = {2025-07-13},
   abstract = {Numbers are a basic part of how humans represent and describe the world around them. As a consequence, learning effective representations of numbers is critical for the success of large language models as they become more integrated into everyday decisions. However, these models face a challenge: depending on context, the same sequence of digit tokens, e.g., 911, can be treated as a number or as a string. What kind of representations arise from this duality, and what are its downstream implications? Using a similarity-based prompting technique from cognitive science, we show that LLMs learn representational spaces that blend string-like and numerical representations. In particular, we show that elicited similarity judgments from these models over integer pairs can be captured by a combination of Levenshtein edit distance and numerical Log-Linear distance, suggesting an entangled representation. In a series of experiments we show how this entanglement is reflected in the latent embeddings, how it can be reduced but not entirely eliminated by context, and how it can propagate into a realistic decision scenario. These results shed light on a representational tension in transformer models that must learn what a number is from text input.},
   archiveprefix = {arXiv},
@@ -1418,6 +1488,7 @@
   author = {Marks, Samuel and Tegmark, Max},
   year = 2024,
   month = aug,
+  url = {https://openreview.net/forum?id=aajyHYjjsk},
   urldate = {2025-07-27},
   abstract = {Large Language Models (LLMs) have impressive capabilities, but are prone to outputting falsehoods. Recent work has developed techniques for inferring whether a LLM is telling the truth by training probes on the LLM's internal activations. However, this line of work is controversial, with some authors pointing out failures of these probes to generalize in basic ways, among other conceptual issues. In this work, we use high-quality datasets of simple true/false statements to study in detail the structure of LLM representations of truth, drawing on three lines of evidence: 1. Visualizations of LLM true/false statement representations, which reveal clear linear structure. 2. Transfer experiments in which probes trained on one dataset generalize to different datasets. 3. Causal evidence obtained by surgically intervening in a LLM's forward pass, causing it to treat false statements as true and vice versa. Overall, we present evidence that at sufficient scale, LLMs *linearly represent* the truth or falsehood of factual statements. We also show that simple difference-in-mean probes generalize as well as other probing techniques while identifying directions which are more causally implicated in model outputs.},
   langid = {english},
@@ -1431,6 +1502,7 @@
   author = {Marks, Samuel and Rager, Can and Michaud, Eric J. and Belinkov, Yonatan and Bau, David and Mueller, Aaron},
   year = 2024,
   month = oct,
+  url = {https://openreview.net/forum?id=I4e82CIDxv},
   urldate = {2025-07-27},
   abstract = {We introduce methods for discovering and applying **sparse feature circuits**. These are causally implicated subnetworks of human-interpretable features for explaining language model behaviors. Circuits identified in prior work consist of polysemantic and difficult-to-interpret units like attention heads or neurons, rendering them unsuitable for many downstream applications. In contrast, sparse feature circuits enable detailed understanding of unanticipated mechanisms in neural networks. Because they are based on fine-grained units, sparse feature circuits are useful for downstream tasks: We introduce SHIFT, where we improve the generalization of a classifier by ablating features that a human judges to be task-irrelevant. Finally, we demonstrate an entirely unsupervised and scalable interpretability pipeline by discovering thousands of sparse feature circuits for automatically discovered model behaviors.},
   langid = {english},
@@ -1448,6 +1520,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2307.15771},
+  url = {http://arxiv.org/abs/2307.15771},
   urldate = {2025-03-31},
   abstract = {We investigate the internal structure of language model computations using causal analysis and demonstrate two motifs: (1) a form of adaptive computation where ablations of one attention layer of a language model cause another layer to compensate (which we term the Hydra effect) and (2) a counterbalancing function of late MLP layers that act to downregulate the maximum-likelihood token. Our ablation studies demonstrate that language model layers are typically relatively loosely coupled (ablations to one layer only affect a small number of downstream layers). Surprisingly, these effects occur even in language models trained without any form of dropout. We analyse these effects in the context of factual recall and consider their implications for circuit-level attribution in language models.},
   archiveprefix = {arXiv},
@@ -1461,6 +1534,7 @@
   year = 2022,
   journal = {Advances in Neural Information Processing Systems},
   volume = {36},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf},
   keywords = {notion}
 }
 
@@ -1474,6 +1548,7 @@
   pages = {4417--4422},
   publisher = {European Language Resources Association (ELRA)},
   address = {Portoro\v z, Slovenia},
+  url = {https://aclanthology.org/L16-1699/},
   urldate = {2025-01-13},
   abstract = {In this paper, we present the NewsReader MEANTIME corpus, a semantically annotated corpus of Wikinews articles. The corpus consists of 480 news articles, i.e. 120 English news articles and their translations in Spanish, Italian, and Dutch. MEANTIME contains annotations at different levels. The document-level annotation includes markables (e.g. entity mentions, event mentions, time expressions, and numerical expressions), relations between markables (modeling, for example, temporal information and semantic role labeling), and entity and event intra-document coreference. The corpus-level annotation includes entity and event cross-document coreference. Semantic annotation on the English section was performed manually; for the annotation in Italian, Spanish, and (partially) Dutch, a procedure was devised to automatically project the annotations on the English texts onto the translated texts, based on the manual alignment of the annotated elements; this enabled us not only to speed up the annotation process but also provided cross-lingual coreference. The English section of the corpus was extended with timeline annotations for the SemEval 2015 TimeLine shared task. The ``First CLIN Dutch Shared Task'' at CLIN26 was based on the Dutch section, while the EVALITA 2016 FactA (Event Factuality Annotation) shared task, based on the Italian section, is currently being organized.},
   file = {C:\Users\frank\Zotero\storage\FAM7PPPA\Minard et al. - 2016 - MEANTIME, the NewsReader Multilingual Event and Time Corpus.pdf}
@@ -1485,6 +1560,7 @@
   author = {Minegishi, Gouki and Furuta, Hiroki and Iwasawa, Yusuke and Matsuo, Yutaka},
   year = 2024,
   month = oct,
+  url = {https://openreview.net/forum?id=HpUs2EXjOl},
   urldate = {2025-07-27},
   abstract = {Sparse autoencoders (SAEs) have gained a lot of attention as a promising tool to improve the interpretability of large language models (LLMs) by mapping the complex superposition of *polysemantic* neurons into *monosemantic* features and composing a sparse dictionary of words. However, traditional performance metrics like Mean Squared Error and \$\textbackslash mathrm\textbraceleft L\textbraceright\_\textbraceleft 0\textbraceright\$ sparsity ignore the evaluation of the semantic representational power of SAEs - whether they can acquire interpretable monosemantic features while preserving the semantic relationship of words.For instance, it is not obvious whether a learned sparse feature could distinguish different meanings in one word. In this paper, we propose a suite of evaluations for SAEs to analyze the quality of monosemantic features by focusing on polysemous words. Our findings reveal that SAEs developed to improve the MSE-\$\textbackslash mathrm\textbraceleft L\textbraceright\_0\$ Pareto frontier may confuse interpretability, which does not necessarily enhance the extraction of monosemantic features. The analysis of SAEs with polysemous words can also figure out the internal mechanism of LLMs; deeper layers and the Attention module contribute to distinguishing polysemy in a word. Our semantics-focused evaluation offers new insights into the polysemy and the existing SAE objective and contributes to the development of more practical SAEs.},
   langid = {english},
@@ -1501,6 +1577,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2505.18235},
+  url = {http://arxiv.org/abs/2505.18235},
   urldate = {2025-07-09},
   abstract = {There is a large ongoing scientific effort in mechanistic interpretability to map embeddings and internal representations of AI systems into human-understandable concepts. A key element of this effort is the linear representation hypothesis, which posits that neural representations are sparse linear combinations of `almost-orthogonal' direction vectors, reflecting the presence or absence of different features. This model underpins the use of sparse autoencoders to recover features from representations. Moving towards a fuller model of features, in which neural representations could encode not just the presence but also a potentially continuous and multidimensional value for a feature, has been a subject of intense recent discourse. We describe why and how a feature might be represented as a manifold, demonstrating in particular that cosine similarity in representation space may encode the intrinsic geometry of a feature through shortest, on-manifold paths, potentially answering the question of how distance in representation space and relatedness in concept space could be connected. The critical assumptions and predictions of the theory are validated on text embeddings and token activations of large language models.},
   archiveprefix = {arXiv},
@@ -1520,6 +1597,7 @@
   publisher = {Association for Computational Linguistics},
   address = {San Diego, California},
   doi = {10.18653/v1/W16-1007},
+  url = {https://aclanthology.org/W16-1007/},
   urldate = {2025-01-13},
   file = {C:\Users\frank\Zotero\storage\7JW7SL94\Mostafazadeh et al. - 2016 - CaTeRS Causal and Temporal Relation Scheme for Semantic Annotation of Event Structures.pdf}
 }
@@ -1535,6 +1613,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Stockholm, Sweden},
   doi = {10.18653/v1/W19-5929},
+  url = {https://aclanthology.org/W19-5929},
   urldate = {2023-03-29},
   abstract = {Prior work on temporal relation classification has focused extensively on event pairs in the same or adjacent sentences (local), paying scant attention to discourse-level (global) pairs. This restricts the ability of systems to learn temporal links between global pairs, since reliance on local syntactic features suffices to achieve reasonable performance on existing datasets. However, systems should be capable of incorporating cues from document-level structure to assign temporal relations. In this work, we take a first step towards discourse-level temporal ordering by creating TDDiscourse, the first dataset focusing specifically on temporal links between event pairs which are more than one sentence apart. We create TDDiscourse by augmenting TimeBank-Dense, a corpus of English news articles, manually annotating global pairs that cannot be inferred automatically from existing annotations. Our annotations double the number of temporal links in TimeBank-Dense, while possessing several desirable properties such as focusing on long-distance pairs and not being automatically inferable. We adapt and benchmark the performance of three state-of-the-art models on TDDiscourse and observe that existing systems indeed find discourse-level temporal ordering harder.},
   file = {C:\Users\frank\Zotero\storage\S54E7VW7\Naik et al. - 2019 - TDDiscourse A Dataset for Discourse-Level Tempora.pdf}
@@ -1550,6 +1629,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Melbourne, Australia},
   doi = {10.18653/v1/P18-1122},
+  url = {https://aclanthology.org/P18-1122},
   urldate = {2021-09-16},
   abstract = {Existing temporal relation (TempRel) annotation schemes often have low inter-annotator agreements (IAA) even between experts, suggesting that the current annotation task needs a better definition. This paper proposes a new multi-axis modeling to better capture the temporal structure of events. In addition, we identify that event end-points are a major source of confusion in annotation, so we also propose to annotate TempRels based on start-points only. A pilot expert annotation effort using the proposed scheme shows significant improvement in IAA from the conventional 60's to 80's (Cohen's Kappa). This better-defined annotation scheme further enables the use of crowdsourcing to alleviate the labor intensity for each annotator. We hope that this work can foster more interesting studies towards event understanding.},
   file = {C:\Users\frank\Zotero\storage\29DU664R\Ning et al. - 2018 - A Multi-Axis Annotation Scheme for Event Temporal .pdf}
@@ -1567,6 +1647,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Bangkok, Thailand},
   doi = {10.18653/v1/2024.findings-acl.89},
+  url = {https://aclanthology.org/2024.findings-acl.89/},
   urldate = {2025-01-13},
   abstract = {The task of temporal relation extraction (TRE) involves identifying and extracting temporal relations between events from narratives. We identify two primary issues with TRE systems. First, by formulating TRE as a simple text classification task where every temporal relation is independent, it is hard to enhance the TRE model`s representation of meaning of temporal relations, and its facility with the underlying temporal calculus. We solve the issue by proposing a novel Temporally Contrastive learning model (ConTempo) that increase the model`s awareness of the meaning of temporal relations by leveraging their symmetric or antisymmetric properties. Second, the reusability of innovations has been limited due to incompatibilities in model architectures. Therefore, we propose a unified framework and show that ConTempo is compatible with all three main branches of TRE research. Our results demonstrate that the performance gains of ConTempo are more pronounced, with the total combination achieving state-of-the-art performance on the widely used MATRES and TBD corpora. We furthermore identified and corrected a large number of annotation errors present in the test set of MATRES, after which the performance increase brought by ConTempo becomes more apparent.},
   file = {C:\Users\frank\Zotero\storage\ZNTD3H47\Niu et al. - 2024 - ConTempo A Unified Temporally Contrastive Framework for Temporal Relation Extraction.pdf}
@@ -1581,6 +1662,7 @@
   pages = {3143--3153},
   publisher = {International Committee on Computational Linguistics},
   address = {Gyeongju, Republic of Korea},
+  url = {https://aclanthology.org/2022.coling-1.278},
   urldate = {2022-10-15},
   abstract = {Does BERT store surface knowledge in its bottom layers, syntactic knowledge in its middle layers, and semantic knowledge in its upper layers? In re-examining Jawahar et al. (2019) and Tenney et al.'s (2019a) probes into the structure of BERT, we have found that the pipeline-like separation that they asserted lacks conclusive empirical support. BERT's structure is, however, linguistically founded, although perhaps in a way that is more nuanced than can be explained by layers alone. We introduce a novel probe, called GridLoc, through which we can also take into account token positions, training rounds, and random seeds. Using GridLoc, we are able to detect other, stronger regularities that suggest that pseudo-cognitive appeals to layer depth may not be the preferable mode of explanation for BERT's inner workings.},
   file = {C\:\\Users\\frank\\Zotero\\storage\\KFFB6IAG\\Niu et al. - 2022 - Does BERT Rediscover a Classical NLP Pipeline.pdf;C\:\\Users\\frank\\Zotero\\storage\\QSGFH9V7\\Niu et al. - 2022 - Does BERT Rediscover a Classical NLP Pipeline.pdf}
@@ -1597,6 +1679,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2505.09338},
+  url = {http://arxiv.org/abs/2505.09338},
   urldate = {2025-07-09},
   abstract = {We observe a novel phenomenon, contextual entrainment, across a wide range of language models (LMs) and prompt settings, providing a new mechanistic perspective on how LMs become distracted by ``irrelevant'' contextual information in the input prompt. Specifically, LMs assign significantly higher logits (or probabilities) to any tokens that have previously appeared in the context prompt, even for random tokens. This suggests that contextual entrainment is a mechanistic phenomenon, occurring independently of the relevance or semantic relation of the tokens to the question or the rest of the sentence. We find statistically significant evidence that the magnitude of contextual entrainment is influenced by semantic factors. Counterfactual prompts have a greater effect compared to factual ones, suggesting that while contextual entrainment is a mechanistic phenomenon, it is modulated by semantic factors. We hypothesise that there is a circuit of attention heads -- the entrainment heads -- that corresponds to the contextual entrainment phenomenon. Using a novel entrainment head discovery method based on differentiable masking, we identify these heads across various settings. When we ``turn off'' these heads, i.e., set their outputs to zero, the effect of contextual entrainment is significantly attenuated, causing the model to generate output that capitulates to what it would produce if no distracting context were provided. Our discovery of contextual entrainment, along with our investigation into LM distraction via the entrainment heads, marks a key step towards the mechanistic analysis and mitigation of the distraction problem.},
   archiveprefix = {arXiv},
@@ -1610,6 +1693,7 @@
   author = {Niu, Jingcheng and Liu, Andrew and Zhu, Zining and Penn, Gerald},
   year = 2023,
   month = oct,
+  url = {https://openreview.net/forum?id=2HJRwwbV3G},
   urldate = {2024-06-07},
   abstract = {We reassess the Knowledge Neuron (KN) Thesis: an interpretation of the mechanism underlying the ability of large language models to recall facts from a training corpus. This nascent thesis proposes that facts are recalled from the training corpus through the MLP weights in a manner resembling key-value memory, implying in effect that "knowledge" is stored in the network. Furthermore, by modifying the MLP modules, one can control the language model's generation of factual information. The plausibility of the KN thesis has been demonstrated by the success of KN-inspired model editing methods (Dai et al., 2022; Meng et al., 2022). We find that this thesis is, at best, an oversimplification. Not only have we found that we can edit the expression of certain linguistic phenomena using the same model editing methods but, through a more comprehensive evaluation, we have found that the KN thesis does not adequately explain the process of factual expression. While it is possible to argue that the MLP weights store complex patterns that are interpretable both syntactically and semantically, these patterns do not constitute "knowledge." To gain a more comprehensive understanding of the knowledge representation process, we must look beyond the MLP weights and explore recent models' complex layer structures and attention mechanisms.},
   langid = {english},
@@ -1626,6 +1710,7 @@
   pages = {2148--2156},
   publisher = {European Language Resources Association},
   address = {Marseille, France},
+  url = {https://aclanthology.org/2020.lrec-1.263},
   urldate = {2023-03-27},
   abstract = {Temporal Dependency Trees (TDTs) have emerged as an alternative to full temporal graphs for representing the temporal structure of texts, with a key advantage being that TDTs can be straightforwardly computed using adapted dependency parsers. Relative to temporal graphs, the tree form of TDTs naturally omits some fraction of temporal relationships, which intuitively should decrease the amount of temporal information available, potentially increasing temporal indeterminacy of the global ordering. We demonstrate a new method for quantifying this indeterminacy that relies on solving temporal constraint problems to extract timelines, and show that TDTs result in up to a 109\% increase in temporal indeterminacy over their corresponding temporal graphs for the three corpora we examine. On average, the increase in indeterminacy is 32\%, and we show that this increase is a result of the TDT representation eliminating on average only 2.4\% of total temporal relations. This result suggests that small differences can have big effects in temporal graphs, and the use of TDTs must be balanced against their deficiencies, with tasks requiring an accurate global temporal ordering potentially calling for use of the full temporal graph},
   isbn = {979-10-95546-34-4},
@@ -1644,6 +1729,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Austin, Texas},
   doi = {10.18653/v1/W16-5706},
+  url = {https://aclanthology.org/W16-5706},
   urldate = {2023-10-03},
   file = {C:\Users\frank\Zotero\storage\8PWGZJ2E\O'Gorman et al. - 2016 - Richer Event Description Integrating event corefe.pdf}
 }
@@ -1660,6 +1746,7 @@
   publisher = {Distill Working Group},
   issn = {2476-0757},
   doi = {10.23915/distill.00024.001},
+  url = {https://distill.pub/2020/circuits/zoom-in},
   urldate = {2025-07-27}
 }
 
@@ -1677,6 +1764,7 @@
   author = {Park, Kiho and Choe, Yo Joong and Jiang, Yibo and Veitch, Victor},
   year = 2024,
   month = jun,
+  url = {https://openreview.net/forum?id=KXuYjuBzKo},
   urldate = {2025-07-14},
   abstract = {Understanding how semantic meaning is encoded in the representation spaces of large language models is a fundamental problem in interpretability. In this paper, we study the two foundational questions in this area. First, how are categorical concepts, such as \textbraceleft 'mammal', 'bird', 'reptile', 'fish'\textbraceright, represented? Second, how are hierarchical relations between concepts encoded? For example, how is the fact that 'dog' is a kind of 'mammal' encoded? We show how to extend the linear representation hypothesis to answer these questions. We then find a remarkably simple structure: simple categorical concepts are represented as simplices, hierarchically related concepts are orthogonal in a sense we make precise, and (in consequence) complex concepts are represented as polytopes constructed from direct sums of simplices, reflecting the hierarchical structure. We validate the results on the Gemma large language model, estimating representations for 957 hierarchically related concepts using data from the WordNet hierarchy.},
   langid = {english},
@@ -1710,6 +1798,7 @@
   pages = {243--286},
   publisher = {Springer},
   issn = {0165-0157},
+  url = {https://www.jstor.org/stable/25001168},
   urldate = {2023-07-17},
   file = {C:\Users\frank\Zotero\storage\S9LTMC9U\Partee_1984_Nominal and Temporal Anaphora.pdf}
 }
@@ -1727,6 +1816,7 @@
   publisher = {Journal of Philosophy, Inc.},
   issn = {0022-362X},
   doi = {10.2307/2025024},
+  url = {https://www.jstor.org/stable/2025024},
   urldate = {2023-07-18},
   file = {C:\Users\frank\Zotero\storage\NYA5QT4G\Partee_1973_Some Structural Analogies between Tenses and Pronouns in English.pdf}
 }
@@ -1740,6 +1830,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Miami, Florida, USA},
   doi = {10.18653/v1/2024.emnlp-main.315},
+  url = {https://aclanthology.org/2024.emnlp-main.315},
   urldate = {2025-07-27},
   abstract = {Multilingual large language models (LLMs) seem to generalize somewhat across languages. We hypothesize this is a result of implicit vector space alignment. Evaluating such alignment, we see that larger models exhibit very highquality linear alignments between corresponding concepts in different languages. Our experiments show that multilingual LLMs suffer from two familiar weaknesses: generalization works best for languages with similar typology, and for abstract concepts. For some models, e.g., the Llama-2 family of models, prompt-based embeddings align better than word embeddings, but the projections are less linear -- an observation that holds across almost all model families, indicating that some of the implicitly learned alignments are broken somewhat by promptbased methods.},
   langid = {english},
@@ -1755,6 +1846,7 @@
   month = may,
   publisher = {European Language Resources Association (ELRA)},
   address = {Valletta, Malta},
+  url = {http://www.lrec-conf.org/proceedings/lrec2010/pdf/55_Paper.pdf},
   urldate = {2020-02-27},
   file = {C:\Users\frank\Zotero\storage\5MK3B3RU\Pustejovsky et al. - 2010 - ISO-TimeML An International Standard for Semantic.pdf}
 }
@@ -1781,6 +1873,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2412.15115},
+  url = {http://arxiv.org/abs/2412.15115},
   urldate = {2025-05-19},
   abstract = {In this report, we introduce Qwen2.5, a comprehensive series of large language models (LLMs) designed to meet diverse needs. Compared to previous iterations, Qwen 2.5 has been significantly improved during both the pre-training and post-training stages. In terms of pre-training, we have scaled the high-quality pre-training datasets from the previous 7 trillion tokens to 18 trillion tokens. This provides a strong foundation for common sense, expert knowledge, and reasoning capabilities. In terms of post-training, we implement intricate supervised finetuning with over 1 million samples, as well as multistage reinforcement learning. Post-training techniques enhance human preference, and notably improve long text generation, structural data analysis, and instruction following. To handle diverse and varied use cases effectively, we present Qwen2.5 LLM series in rich sizes. Open-weight offerings include base and instruction-tuned models, with quantized versions available. In addition, for hosted solutions, the proprietary models currently include two mixture-of-experts (MoE) variants: Qwen2.5-Turbo and Qwen2.5-Plus, both available from Alibaba Cloud Model Studio. Qwen2.5 has demonstrated top-tier performance on a wide range of benchmarks evaluating language understanding, reasoning, mathematics, coding, human preference alignment, etc. Specifically, the open-weight flagship Qwen2.5-72B-Instruct outperforms a number of open and proprietary models and demonstrates competitive performance to the state-of-the-art open-weight model, Llama-3-405B-Instruct, which is around 5 times larger. Qwen2.5-Turbo and Qwen2.5-Plus offer superior cost-effectiveness while performing competitively against GPT-4o-mini and GPT-4o respectively. Additionally, as the foundation, Qwen2.5 models have been instrumental in training specialized models such as Qwen2.5-Math, Qwen2.5-Coder, QwQ, and multimodal models.},
   archiveprefix = {arXiv},
@@ -1799,6 +1892,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2302.09715},
+  url = {http://arxiv.org/abs/2302.09715},
   urldate = {2023-03-28},
   abstract = {Event coreference models cluster event mentions pertaining to the same real-world event. Recent models rely on contextualized representations to recognize coreference among lexically or contextually similar mentions. However, models typically fail to leverage commonsense inferences, which is particularly limiting for resolving lexically-divergent mentions. We propose a model that extends event mentions with temporal commonsense inferences. Given a complex sentence with multiple events, e.g., "The man killed his wife and got arrested", with the target event "arrested", our model generates plausible events that happen before the target event - such as "the police arrived", and after it, such as "he was sentenced". We show that incorporating such inferences into an existing event coreference model improves its performance, and we analyze the coreferences in which such temporal knowledge is required.},
   archiveprefix = {arXiv},
@@ -1826,6 +1920,7 @@
   eprint = {1908.11443},
   primaryclass = {cs},
   publisher = {arXiv},
+  url = {http://arxiv.org/abs/1908.11443},
   urldate = {2023-10-03},
   abstract = {For the past decade, temporal annotation has been sparse: only a small portion of event pairs in a text was annotated. We present NarrativeTime, the first timeline-based annotation framework that achieves full coverage of all possible TLinks. To compare with the previous SOTA in dense temporal annotation, we perform full re-annotation of TimeBankDense corpus, which shows comparable agreement with a significant increase in density. We contribute TimeBankNT corpus (with each text fully annotated by two expert annotators), extensive annotation guidelines, open-source tools for annotation and conversion to TimeML format, baseline results, as well as quantitative and qualitative analysis of inter-annotator agreement.},
   archiveprefix = {arXiv},
@@ -1844,6 +1939,7 @@
   pages = {12053--12073},
   publisher = {{ELRA and ICCL}},
   address = {Torino, Italia},
+  url = {https://aclanthology.org/2024.lrec-main.1054/},
   urldate = {2025-01-13},
   abstract = {For the past decade, temporal annotation has been sparse: only a small portion of event pairs in a text was annotated. We present NarrativeTime, the first timeline-based annotation framework that achieves full coverage of all possible TLINKs. To compare with the previous SOTA in dense temporal annotation, we perform full re-annotation of the classic TimeBankDense corpus (American English), which shows comparable agreement with a signigicant increase in density. We contribute TimeBankNT corpus (with each text fully annotated by two expert annotators), extensive annotation guidelines, open-source tools for annotation and conversion to TimeML format, and baseline results.},
   file = {C:\Users\frank\Zotero\storage\HHB8RAQA\Rogers et al. - 2024 - NarrativeTime Dense Temporal Annotation on a Timeline.pdf}
@@ -1859,6 +1955,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Online},
   doi = {10.18653/v1/2020.emnlp-main.689},
+  url = {https://www.aclweb.org/anthology/2020.emnlp-main.689},
   urldate = {2020-12-07},
   abstract = {Extracting temporal relations between events and time expressions has many applications such as constructing event timelines and time-related question answering. It is a challenging problem which requires syntactic and semantic information at sentence or discourse levels, which may be captured by deep contextualized language models (LMs) such as BERT (Devlin et al., 2019). In this paper, we develop several variants of BERT-based temporal dependency parser, and show that BERT significantly improves temporal dependency parsing (Zhang and Xue, 2018a). We also present a detailed analysis on why deep contextualized neural LMs help and where they may fall short. Source code and resources are made available at https://github.com/bnmin/tdp\_ranking.},
   file = {C:\Users\frank\Zotero\storage\N8LL7NFM\Ross et al_2020_Exploring Contextualized Neural Language Models for Temporal Dependency Parsing.pdf}
@@ -1890,6 +1987,7 @@
   publisher = {MIT Press},
   address = {Cambridge, MA},
   doi = {10.1162/COLI_a_00096},
+  url = {https://aclanthology.org/J12-2002},
   urldate = {2024-09-20},
   file = {C:\Users\frank\Zotero\storage\D6RJSC7A\Saurí and Pustejovsky - 2012 - Are You Sure That This Happened Assessing the Factuality Degree of Events in Text.pdf}
 }
@@ -1906,6 +2004,7 @@
   pages = {227--268},
   issn = {1574-0218},
   doi = {10.1007/s10579-009-9089-9},
+  url = {https://doi.org/10.1007/s10579-009-9089-9},
   urldate = {2023-10-06},
   abstract = {Recent work in computational linguistics points out the need for systems to be sensitive to the veracity or factuality of events as mentioned in text; that is, to recognize whether events are presented as corresponding to actual situations in the world, situations that have not happened, or situations of uncertain interpretation. Event factuality is an important aspect of the representation of events in discourse, but the annotation of such information poses a representational challenge, largely because factuality is expressed through the interaction of numerous linguistic markers and constructions. Many of these markers are already encoded in existing corpora, albeit in a somewhat fragmented way. In this article, we present FactBank, a corpus annotated with information concerning the factuality of events. Its annotation has been carried out from a descriptive framework of factuality grounded on both theoretical findings and data analysis. FactBank is built on top of TimeBank, adding to it an additional level of semantic information.},
   langid = {english},
@@ -1931,6 +2030,7 @@
   pages = {1158--1193},
   issn = {0004-3702},
   doi = {10.1016/j.artint.2008.01.001},
+  url = {https://www.sciencedirect.com/science/article/pii/S0004370208000039},
   urldate = {2023-10-05},
   abstract = {Traditional approaches to temporal reasoning assume that time periods and time spans of events can be accurately represented as intervals. Real-world time periods and events, on the other hand, are often characterized by vague temporal boundaries, requiring appropriate generalizations of existing formalisms. This paper presents a framework for reasoning about qualitative and metric temporal relations between vague time periods. In particular, we show how several interesting problems, like consistency and entailment checking, can be reduced to reasoning tasks in existing temporal reasoning frameworks. We furthermore demonstrate that all reasoning tasks of interest are NP-complete, which reveals that adding vagueness to temporal reasoning does not increase its computational complexity. To support efficient reasoning, a large tractable subfragment is identified, among others, generalizing the well-known ORD Horn subfragment of the Interval Algebra (extended with metric constraints).},
   keywords = {Fuzzy set theory,Interval algebra,Temporal reasoning},
@@ -1951,6 +2051,7 @@
   month = mar,
   journal = {Transactions on Machine Learning Research},
   issn = {2835-8856},
+  url = {https://openreview.net/forum?id=91H76m9Z94},
   urldate = {2026-02-06},
   abstract = {Mechanistic interpretability aims to understand the computational mechanisms underlying neural networks' capabilities in order to accomplish concrete scientific and engineering goals. Progress in this field thus promises to provide greater assurance over AI system behavior and shed light on exciting scientific questions about the nature of intelligence. Despite recent progress toward these goals, there are many open problems in the field that require solutions before many scientific and practical benefits can be realized: Our methods require both conceptual and practical improvements to reveal deeper insights; we must figure out how best to apply our methods in pursuit of specific goals; and the field must grapple with socio-technical challenges that influence and are influenced by our work. This forward-facing review discusses the current frontier of mechanistic interpretability and the open problems that the field may benefit from prioritizing.},
   langid = {english},
@@ -1966,6 +2067,7 @@
   pages = {31210--31227},
   publisher = {PMLR},
   issn = {2640-3498},
+  url = {https://proceedings.mlr.press/v202/shi23a.html},
   urldate = {2024-06-14},
   abstract = {Large language models have achieved impressive performance on various natural language processing tasks. However, so far they have been evaluated primarily on benchmarks where all information in the input context is relevant for solving the task. In this work, we investigate the distractibility of large language models, i.e., how the model prediction can be distracted by irrelevant context. In particular, we introduce Grade-School Math with Irrelevant Context (GSM-IC), an arithmetic reasoning dataset with irrelevant information in the problem description. We use this benchmark to measure the distractibility of different prompting techniques for large language models, and find that the model is easily distracted by irrelevant information. We also identify several approaches for mitigating this deficiency, such as decoding with self-consistency and adding to the prompt an instruction that tells the language model to ignore the irrelevant information.},
   langid = {english},
@@ -1979,6 +2081,7 @@
   author = {Singh, Aaditya K. and Chan, Stephanie C. Y. and Moskovitz, Ted and Grant, Erin and Saxe, Andrew M. and Hill, Felix},
   year = 2023,
   month = nov,
+  url = {https://openreview.net/forum?id=Of0GBzow8P},
   urldate = {2025-03-05},
   abstract = {Transformer neural networks can exhibit a surprising capacity for in-context learning (ICL) despite not being explicitly trained for it. Prior work has provided a deeper understanding of how ICL emerges in transformers, e.g. through the lens of mechanistic interpretability, Bayesian inference, or by examining the distributional properties of training data. However, in each of these cases, ICL is treated largely as a persistent phenomenon; namely, once ICL emerges, it is assumed to persist asymptotically. Here, we show that the emergence of ICL during transformer training is, in fact, often transient. We train transformers on synthetic data designed so that both ICL and in-weights learning (IWL) strategies can lead to correct predictions. We find that ICL first emerges, then disappears and gives way to IWL, all while the training loss decreases, indicating an asymptotic preference for IWL. The transient nature of ICL is observed in transformers across a range of model sizes and datasets, raising the question of how much to ``overtrain'' transformers when seeking compact, cheaper-to-run models. We find that L2 regularization may offer a path to more persistent ICL that removes the need for early stopping based on ICL-style validation tasks. Finally, we present initial evidence that ICL transience may be caused by competition between ICL and IWL circuits.},
   langid = {english},
@@ -1997,6 +2100,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Singapore},
   doi = {10.18653/v1/2023.emnlp-main.435},
+  url = {https://aclanthology.org/2023.emnlp-main.435/},
   urldate = {2025-03-05},
   abstract = {Mathematical reasoning in large language models (LMs) has garnered significant attention in recent work, but there is a limited understanding of how these models process and store information related to arithmetic tasks within their architecture. In order to improve our understanding of this aspect of language models, we present a mechanistic interpretation of Transformer-based LMs on arithmetic questions using a causal mediation analysis framework. By intervening on the activations of specific model components and measuring the resulting changes in predicted probabilities, we identify the subset of parameters responsible for specific predictions. This provides insights into how information related to arithmetic is processed by LMs. Our experimental results indicate that LMs process the input by transmitting the information relevant to the query from mid-sequence early layers to the final token using the attention mechanism. Then, this information is processed by a set of MLP modules, which generate result-related information that is incorporated into the residual stream. To assess the specificity of the observed activation dynamics, we compare the effects of different model components on arithmetic queries with other tasks, including number retrieval from prompts and factual knowledge questions.},
   keywords = {notion},
@@ -2012,6 +2116,7 @@
   volume = {2},
   pages = {143--154},
   doi = {10.1162/tacl_a_00172},
+  url = {https://doi.org/10.1162/tacl_a_00172},
   urldate = {2020-02-05},
   abstract = {This article discusses the requirements of a formal specification for the                     annotation of temporal information in clinical narratives. We discuss the                     implementation and extension of ISO-TimeML for annotating a corpus of clinical                     notes, known as the THYME corpus. To reflect the information task and the                     heavily inference-based reasoning demands in the domain, a new annotation                     guideline has been developed, ``the THYME Guidelines to ISO-TimeML                     (THYME-TimeML)''. To clarify what relations merit annotation, we distinguish                     between linguistically-derived and inferentially-derived temporal orderings in                     the text. We also apply a top performing TempEval 2013 system against this new                     resource to measure the difficulty of adapting systems to the clinical domain.                     The corpus is available to the community and has been proposed for use in a                     SemEval 2015 task.},
   keywords = {_tablet},
@@ -2029,6 +2134,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.1812.05944},
+  url = {http://arxiv.org/abs/1812.05944},
   urldate = {2025-07-09},
   abstract = {Distance metric learning is a branch of machine learning that aims to learn distances from the data, which enhances the performance of similarity-based algorithms. This tutorial provides a theoretical background and foundations on this topic and a comprehensive experimental analysis of the most-known algorithms. We start by describing the distance metric learning problem and its main mathematical foundations, divided into three main blocks: convex analysis, matrix analysis and information theory. Then, we will describe a representative set of the most popular distance metric learning methods used in classification. All the algorithms studied in this paper will be evaluated with exhaustive testing in order to analyze their capabilities in standard classification problems, particularly considering dimensionality reduction and kernelization. The results, verified by Bayesian statistical tests, highlight a set of outstanding algorithms. Finally, we will discuss several potential future prospects and challenges in this field. This tutorial will serve as a starting point in the domain of distance metric learning from both a theoretical and practical perspective.},
   archiveprefix = {arXiv},
@@ -2047,6 +2153,7 @@
   pages = {300--322},
   issn = {0925-2312},
   doi = {10.1016/j.neucom.2020.08.017},
+  url = {https://www.sciencedirect.com/science/article/pii/S0925231220312777},
   urldate = {2026-02-06},
   abstract = {Distance metric learning is a branch of machine learning that aims to learn distances from the data, which enhances the performance of similarity-based algorithms. This tutorial provides a theoretical background and foundations on this topic and a comprehensive experimental analysis of the most-known algorithms. We start by describing the distance metric learning problem and its main mathematical foundations, divided into three main blocks: convex analysis, matrix analysis and information theory. Then, we will describe a representative set of the most popular distance metric learning methods used in classification. All the algorithms studied in this paper will be evaluated with exhaustive testing in order to analyze their capabilities in standard classification problems, particularly considering dimensionality reduction and kernelization. The results, verified by Bayesian statistical tests, highlight a set of outstanding algorithms. Finally, we will discuss several potential future prospects and challenges in this field. This tutorial will serve as a starting point in the domain of distance metric learning from both a theoretical and practical perspective.},
   keywords = {Classification,Dimensionality,Distance metric learning,Mahalanobis distance,Similarity},
@@ -2060,6 +2167,7 @@
   author = {Subhash, Varshini and Bialas, Anna and Pan, Weiwei and {Doshi-Velez}, Finale},
   year = 2023,
   month = aug,
+  url = {https://openreview.net/forum?id=d3LYgvc5da},
   urldate = {2025-07-29},
   abstract = {Transformer based large language models with emergent capabilities are becoming increasingly ubiquitous in society. However, the task of understanding and interpreting their internal workings, in the context of adversarial attacks, remains largely unsolved. Gradient-based universal adversarial attacks have been shown to be highly effective on large language models and potentially dangerous due to their input-agnostic nature. This work presents a novel geometric perspective explaining universal adversarial attacks on large language models. By attacking the 117M parameter GPT-2 model, we find evidence indicating that universal adversarial triggers could be embedding vectors which merely approximate the semantic information in their adversarial training region. This hypothesis is supported by white-box model analysis comprising dimensionality reduction and similarity measurement of hidden representations. We believe this new geometric perspective on the underlying mechanism driving universal attacks could help us gain deeper insight into the internal workings and failure modes of LLMs, thus enabling their mitigation.},
   langid = {english},
@@ -2076,6 +2184,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2103.15316},
+  url = {http://arxiv.org/abs/2103.15316},
   urldate = {2023-06-22},
   abstract = {Pre-training models such as BERT have achieved great success in many natural language processing tasks. However, how to obtain better sentence representation through these pre-training models is still worthy to exploit. Previous work has shown that the anisotropy problem is an critical bottleneck for BERT-based sentence representation which hinders the model to fully utilize the underlying semantic features. Therefore, some attempts of boosting the isotropy of sentence distribution, such as flow-based model, have been applied to sentence representations and achieved some improvement. In this paper, we find that the whitening operation in traditional machine learning can similarly enhance the isotropy of sentence representations and achieve competitive results. Furthermore, the whitening technique is also capable of reducing the dimensionality of the sentence representation. Our experimental results show that it can not only achieve promising performance but also significantly reduce the storage cost and accelerate the model retrieval speed.},
   archiveprefix = {arXiv},
@@ -2094,6 +2203,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Toronto, Canada},
   doi = {10.18653/v1/2023.acl-long.828},
+  url = {https://aclanthology.org/2023.acl-long.828/},
   urldate = {2025-07-27},
   abstract = {Reasoning about time is of fundamental importance. Many facts are time-dependent. For example, athletes change teams from time to time, and different government officials are elected periodically. Previous time-dependent question answering (QA) datasets tend to be biased in either their coverage of time spans or question types. In this paper, we introduce a comprehensive probing dataset TempReason to evaluate the temporal reasoning capability of large language models. Our dataset includes questions of three temporal reasoning levels. In addition, we also propose a novel learning framework to improve the temporal reasoning capability of large language models, based on temporal span extraction and time-sensitive reinforcement learning. We conducted experiments in closed book QA, open book QA, and reasoning QA settings and demonstrated the effectiveness of our approach.},
   file = {C:\Users\frank\Zotero\storage\WM4AUIU4\Tan et al. - 2023 - Towards Benchmarking and Improving the Temporal Reasoning Capability of Large Language Models.pdf}
@@ -2104,6 +2214,7 @@
   author = {Templeton, Adly and Conerly, Tom and Marcus, Jonathan and Lindsey, Jack and Bricken, Trenton and Chen, Brian and Pearce, Adam and Citro, Craig and Ameisen, Emmanuel and Jones, Andy and Cunningham, Hoagy and Turner, Nicholas L and McDougall, Callum and MacDiarmid, Monte and Freeman, C. Daniel and Sumers, Theodore R. and Rees, Edward and Batson, Joshua and Jermyn, Adam and Carter, Shan and Olah, Chris and Henighan, Tom},
   year = 2024,
   journal = {Transformer Circuits Thread},
+  url = {https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html},
   keywords = {notion}
 }
 
@@ -2113,6 +2224,7 @@
   author = {Trofimov, Ilya and Cherniavskii, Daniil and Tulchinskii, Eduard and Balabin, Nikita and Burnaev, Evgeny and Barannikov, Serguei},
   year = 2022,
   month = sep,
+  url = {https://openreview.net/forum?id=lIu-ixf-Tzf},
   urldate = {2026-01-20},
   abstract = {We propose a method for learning topology-preserving data representations (dimensionality reduction). The method aims to provide topological similarity between the data manifold and its latent representation via enforcing the similarity in topological features (clusters, loops, 2D voids, etc.) and their localization. The core of the method is the minimization of the Representation Topology Divergence (RTD) between original high-dimensional data and low-dimensional representation in latent space. RTD minimization provides closeness in topological features with strong theoretical guarantees. We develop a scheme for RTD differentiation and apply it as a loss term for the autoencoder. The proposed method "RTD-AE" better preserves the global structure and topology of the data manifold than state-of-the-art competitors as measured by linear correlation, triplet distance ranking accuracy, and Wasserstein distance between persistence barcodes.},
   langid = {english},
@@ -2126,6 +2238,7 @@
   author = {Tulchinskii, Eduard and Voronkova, Daria and Trofimov, Ilya and Burnaev, Evgeny and Barannikov, Serguei},
   year = 2025,
   month = feb,
+  url = {https://openreview.net/forum?id=JoDTjOu693},
   urldate = {2026-01-20},
   abstract = {Topological methods for comparing weighted graphs are valuable in various learning tasks but often suffer from computational inefficiency on large datasets. We introduce RTD-Lite, a scalable algorithm that efficiently compares topological features, specifically connectivity or cluster structures at arbitrary scales, of two weighted graphs with one-to-one correspondence between vertices. By leveraging minimal spanning trees in auxiliary graphs, RTD-Lite captures topological discrepancies with \$O(n\textasciicircum 2)\$ time and memory complexity. This efficiency enables its application in tasks like dimensionality reduction and neural network training. Experiments on synthetic and real-world datasets demonstrate that RTD-Lite effectively identifies topological differences while significantly reducing computation time compared to existing methods. Moreover, integrating RTD-Lite into neural network training as a loss function component enhances the preservation of topological structures in learned representations. Our code is publicly available at https://github.com/ArGintum/RTD-Lite.},
   langid = {english},
@@ -2142,6 +2255,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2309.02390},
+  url = {http://arxiv.org/abs/2309.02390},
   urldate = {2025-03-05},
   abstract = {One of the most surprising puzzles in neural network generalisation is grokking: a network with perfect training accuracy but poor generalisation will, upon further training, transition to perfect generalisation. We propose that grokking occurs when the task admits a generalising solution and a memorising solution, where the generalising solution is slower to learn but more efficient, producing larger logits with the same parameter norm. We hypothesise that memorising circuits become more inefficient with larger training datasets while generalising circuits do not, suggesting there is a critical dataset size at which memorisation and generalisation are equally efficient. We make and confirm four novel predictions about grokking, providing significant evidence in favour of our explanation. Most strikingly, we demonstrate two novel and surprising behaviours: ungrokking, in which a network regresses from perfect to low test accuracy, and semi-grokking, in which a network shows delayed generalisation to partial rather than perfect test accuracy.},
   archiveprefix = {arXiv},
@@ -2160,6 +2274,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Florence, Italy},
   doi = {10.18653/v1/P19-1280},
+  url = {https://aclanthology.org/P19-1280/},
   urldate = {2025-01-13},
   abstract = {We present a novel semantic framework for modeling temporal relations and event durations that maps pairs of events to real-valued scales. We use this framework to construct the largest temporal relations dataset to date, covering the entirety of the Universal Dependencies English Web Treebank. We use this dataset to train models for jointly predicting fine-grained temporal relations and event durations. We report strong results on our data and show the efficacy of a transfer-learning approach for predicting categorical relations.},
   file = {C:\Users\frank\Zotero\storage\ZEWUUWSK\Vashishtha et al. - 2019 - Fine-Grained Temporal Relation Extraction.pdf}
@@ -2176,6 +2291,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2307.12966},
+  url = {http://arxiv.org/abs/2307.12966},
   urldate = {2025-07-09},
   abstract = {Large Language Models (LLMs) trained on extensive textual corpora have emerged as leading solutions for a broad array of Natural Language Processing (NLP) tasks. Despite their notable performance, these models are prone to certain limitations such as misunderstanding human instructions, generating potentially biased content, or factually incorrect (hallucinated) information. Hence, aligning LLMs with human expectations has become an active area of interest within the research community. This survey presents a comprehensive overview of these alignment technologies, including the following aspects. (1) Data collection: the methods for effectively collecting high-quality instructions for LLM alignment, including the use of NLP benchmarks, human annotations, and leveraging strong LLMs. (2) Training methodologies: a detailed review of the prevailing training methods employed for LLM alignment. Our exploration encompasses Supervised Fine-tuning, both Online and Offline human preference training, along with parameter-efficient training mechanisms. (3) Model Evaluation: the methods for evaluating the effectiveness of these human-aligned LLMs, presenting a multifaceted approach towards their assessment. In conclusion, we collate and distill our findings, shedding light on several promising future research avenues in the field. This survey, therefore, serves as a valuable resource for anyone invested in understanding and advancing the alignment of LLMs to better suit human-oriented tasks and expectations. An associated GitHub link collecting the latest papers is available at https://github.com/GaryYufei/AlignLLMHumanSurvey.},
   archiveprefix = {arXiv},
@@ -2192,6 +2308,7 @@
   pages = {2087--2097},
   publisher = {International Committee on Computational Linguistics},
   address = {Gyeongju, Republic of Korea},
+  url = {https://aclanthology.org/2022.coling-1.182},
   urldate = {2022-11-14},
   abstract = {Most previous work on temporal relation extraction only focused on extracting the temporal relations among events or suffered from the issue of different expressions of events, timexes and Document Creation Time (DCT). Moreover, DCT can act as a hub to semantically connect the other events and timexes in a document. Unfortunately, previous work cannot benefit from such critical information. To address the above issues, we propose a unified DCT-centered Temporal Relation Extraction model DTRE to identify the relations among events, timexes and DCT. Specifically, sentence-style DCT representation is introduced to address the first issue and unify event expressions, timexes and DCT. Then, a DCT-aware graph is applied to obtain their contextual structural representations. Furthermore, a DCT-anchoring multi-task learning framework is proposed to jointly predict three types of temporal relations in a batch. Finally, we apply a DCT-guided global inference to further enhance the global consistency among different relations. Experimental results on three datasets show that our DTRE outperforms several SOTA baselines on E-E, E-T and E-D significantly.},
   file = {C:\Users\frank\Zotero\storage\BYRRRU7Q\Wang et al_2022_DCT-Centered Temporal Relation Extraction.pdf}
@@ -2208,6 +2325,7 @@
   primaryclass = {cs},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2210.04992},
+  url = {http://arxiv.org/abs/2210.04992},
   urldate = {2023-03-28},
   abstract = {In this paper, we seek to improve the faithfulness of TempRel extraction models from two perspectives. The first perspective is to extract genuinely based on contextual description. To achieve this, we propose to conduct counterfactual analysis to attenuate the effects of two significant types of training biases: the event trigger bias and the frequent label bias. We also add tense information into event representations to explicitly place an emphasis on the contextual description. The second perspective is to provide proper uncertainty estimation and abstain from extraction when no relation is described in the text. By parameterization of Dirichlet Prior over the model-predicted categorical distribution, we improve the model estimates of the correctness likelihood and make TempRel predictions more selective. We also employ temperature scaling to recalibrate the model confidence measure after bias mitigation. Through experimental analysis on MATRES, MATRES-DS, and TDDiscourse, we demonstrate that our model extracts TempRel and timelines more faithfully compared to SOTA methods, especially under distribution shifts.},
   archiveprefix = {arXiv},
@@ -2222,6 +2340,7 @@
   author = {Wang, Kevin Ro and Variengien, Alexandre and Conmy, Arthur and Shlegeris, Buck and Steinhardt, Jacob},
   year = 2022,
   month = sep,
+  url = {https://openreview.net/forum?id=NpsVSN6o4ul},
   urldate = {2025-03-03},
   abstract = {Research in mechanistic interpretability seeks to explain behaviors of ML models in terms of their internal components. However, most previous work either focuses on simple behaviors in small models, or describes complicated behaviors in larger models with broad strokes. In this work, we bridge this gap by presenting an explanation for how GPT-2 small performs a natural language task that requires logical reasoning: indirect object identification (IOI). Our explanation encompasses 28 attention heads grouped into 7 main classes, which we discovered using a combination of interpretability approaches including causal interventions and projections. To our knowledge, this investigation is the largest end-to-end attempt at reverse-engineering a natural behavior "in the wild" in a language model. We evaluate the reliability of our explanation using three quantitative criteria - faithfulness, completeness and minimality. Though these criteria support our explanation, they also point to remaining gaps in our understanding. Our work provides evidence that a mechanistic understanding of large ML models is feasible, opening opportunities to scale our understanding to both larger models and more complex tasks.},
   langid = {english},
@@ -2239,7 +2358,8 @@
   pages = {6389--6415},
   publisher = {Association for Computational Linguistics},
   address = {Bangkok, Thailand},
-  doi = {10.18653/v1/2024.findings-acl.382}
+  doi = {10.18653/v1/2024.findings-acl.382},
+  url = {https://aclanthology.org/2024.findings-acl.382/}
 }
 
 @inproceedings{weiChainofthoughtPromptingElicits2022,
@@ -2263,6 +2383,7 @@
   author = {Wei, Jason and Bosma, Maarten and Zhao, Vincent and Guu, Kelvin and Yu, Adams Wei and Lester, Brian and Du, Nan and Dai, Andrew M. and Le, Quoc V.},
   year = 2021,
   month = oct,
+  url = {https://openreview.net/forum?id=gEZrGCozdqR},
   urldate = {2025-08-18},
   abstract = {This paper explores a simple method for improving the zero-shot learning abilities of language models. We show that instruction tuning---finetuning language models on a collection of datasets described via instructions---substantially improves zero-shot performance on unseen tasks. We take a 137B parameter pretrained language model and instruction tune it on over 60 NLP datasets verbalized via natural language instruction templates. We evaluate this instruction-tuned model, which we call FLAN, on unseen task types. FLAN substantially improves the performance of its unmodified counterpart and surpasses zero-shot 175B GPT-3 on 20 of 25 datasets that we evaluate. FLAN even outperforms few-shot GPT-3 by a large margin on ANLI, RTE, BoolQ, AI2-ARC, OpenbookQA, and StoryCloze. Ablation studies reveal that number of finetuning datasets, model scale, and natural language instructions are key to the success of instruction tuning.},
   langid = {english},
@@ -2280,6 +2401,7 @@
   pages = {829--831},
   issn = {0820-3946, 1488-2329},
   doi = {10.1503/cmaj.1090215},
+  url = {https://www.cmaj.ca/content/180/8/829},
   urldate = {2020-02-06},
   abstract = {Rapidly identifying an infectious disease outbreak is critical, both for effective initiation of public health intervention measures and timely alerting of government agencies and the general public. Surveillance capacity for such detection can be costly, and many countries lack the public health},
   copyright = {\copyright{} 2009 Canadian Medical Association},
@@ -2301,6 +2423,7 @@
   pages = {109--130},
   issn = {0169-7439},
   doi = {10.1016/S0169-7439(01)00155-1},
+  url = {https://www.sciencedirect.com/science/article/pii/S0169743901001551},
   urldate = {2025-07-12},
   abstract = {PLS-regression (PLSR) is the PLS approach in its simplest, and in chemistry and technology, most used form (two-block predictive PLS). PLSR is a method for relating two data matrices, X and Y, by a linear multivariate model, but goes beyond traditional regression in that it models also the structure of X and Y. PLSR derives its usefulness from its ability to analyze data with many, noisy, collinear, and even incomplete variables in both X and Y. PLSR has the desirable property that the precision of the model parameters improves with the increasing number of relevant variables and observations. This article reviews PLSR as it has developed to become a standard tool in chemometrics and used in chemistry and engineering. The underlying model and its assumptions are discussed, and commonly used diagnostics are reviewed together with the interpretation of resulting parameters. Two examples are used as illustrations: First, a Quantitative Structure--Activity Relationship (QSAR)/Quantitative Structure--Property Relationship (QSPR) data set of peptides is used to outline how to develop, interpret and refine a PLSR model. Second, a data set from the manufacturing of recycled paper is analyzed to illustrate time series modelling of process data by means of PLSR and time-lagged X-variables.},
   keywords = {Latent variables,Multivariate analysis,PLS,PLSR,Two-block predictive PLS},
@@ -2314,6 +2437,7 @@
   author = {Wu, Zhengxuan and Arora, Aryaman and Geiger, Atticus and Wang, Zheng and Huang, Jing and Jurafsky, Dan and Manning, Christopher D. and Potts, Christopher},
   year = 2025,
   month = jun,
+  url = {https://openreview.net/forum?id=K2CckZjNy0},
   urldate = {2025-07-27},
   abstract = {Fine-grained steering of language model outputs is essential for safety and reliability. Prompting and finetuning are widely used to achieve these goals, but interpretability researchers have proposed a variety of representation-based techniques as well, including sparse autoencoders (SAEs), linear artificial tomography, supervised steering vectors, linear probes, and representation finetuning. At present, there is no benchmark for making direct comparisons between these proposals. Therefore, we introduce AxBench, a large-scale benchmark for steering and concept detection, and report experiments on Gemma-2-2B and 9B. For steering, we find that prompting outperforms all existing methods, followed by finetuning. For concept detection, representation-based methods such as difference-in-means, perform the best. On both evaluations, SAEs are not competitive. We introduce a novel weakly-supervised representational method (Rank-1 Representation Finetuning; ReFT-r1), which is competitive on both tasks while providing the interpretability advantages that prompting lacks. Along with AxBench, we train and publicly release SAE-scale feature dictionaries for ReFT-r1 and DiffMean.},
   langid = {english},
@@ -2327,6 +2451,7 @@
   author = {Wu, Zhengxuan and Geiger, Atticus and Icard, Thomas and Potts, Christopher and Goodman, Noah},
   year = 2023,
   month = nov,
+  url = {https://openreview.net/forum?id=nRfClnMhVX},
   urldate = {2025-03-05},
   abstract = {Obtaining human-interpretable explanations of large, general-purpose language models is an urgent goal for AI safety. However, it is just as important that our interpretability methods are faithful to the causal dynamics underlying model behavior and able to robustly generalize to unseen inputs. Distributed Alignment Search (DAS) is a powerful gradient descent method grounded in a theory of causal abstraction that uncovered perfect alignments between interpretable symbolic algorithms and small deep learning models fine-tuned for specific tasks. In the present paper, we scale DAS significantly by replacing the remaining brute-force search steps with learned parameters -- an approach we call Boundless DAS. This enables us to efficiently search for interpretable causal structure in large language models while they follow instructions. We apply Boundless DAS to the Alpaca model (7B parameters), which, off the shelf, solves a simple numerical reasoning problem. With Boundless DAS, we discover that Alpaca does this by implementing a causal model with two interpretable boolean variables. Furthermore, we find that the alignment of neural representations with these variables is robust to changes in inputs and instructions. These findings mark a first step toward deeply understanding the inner-workings of our largest and most widely deployed language models.},
   langid = {english},
@@ -2346,6 +2471,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Mexico City, Mexico},
   doi = {10.18653/v1/2024.naacl-long.130},
+  url = {https://aclanthology.org/2024.naacl-long.130/},
   urldate = {2025-08-18},
   abstract = {Large Language Models (LLMs) have achieved remarkable success, where instruction tuning is the critical step in aligning LLMs with user intentions. In this work, we investigate how the instruction tuning adjusts pre-trained models with a focus on intrinsic changes. Specifically, we first develop several local and global explanation methods, including a gradient-based method for input-output attribution, and techniques for interpreting patterns and concepts in self-attention and feed-forward layers. The impact of instruction tuning is then studied by comparing the explanations derived from the pre-trained and instruction-tuned models. This approach provides an internal perspective of the model shifts on a human-comprehensible level. Our findings reveal three significant impacts of instruction tuning: 1) It empowers LLMs to recognize the instruction parts of user prompts, and promotes the response generation constantly conditioned on the instructions. 2) It encourages the self-attention heads to capture more word-word relationships about instruction verbs. 3) It encourages the feed-forward networks to rotate their pre-trained knowledge toward user-oriented tasks. These insights contribute to a more comprehensive understanding of instruction tuning and lay the groundwork for future work that aims at explaining and optimizing LLMs for various applications. Our code and data are publicly available at https://github.com/JacksonWuxs/Interpret\_Instruction\_Tuning\_LLMs.}
 }
@@ -2356,6 +2482,7 @@
   author = {Xie, Sang Michael and Raghunathan, Aditi and Liang, Percy and Ma, Tengyu},
   year = 2021,
   month = oct,
+  url = {https://openreview.net/forum?id=RdJVFCHjUMI},
   urldate = {2025-03-05},
   abstract = {Large language models (LMs) such as GPT-3 have the surprising ability to do in-context learning, where the model learns to do a downstream task simply by conditioning on a prompt consisting of input-output examples. The LM learns from these examples without being explicitly pretrained to learn. Thus, it is unclear what enables in-context learning. In this paper, we study how in-context learning can emerge when pretraining documents have long-range coherence. Here, the LM must infer a latent document-level concept to generate coherent next tokens during pretraining. At test time, in-context learning occurs when the LM also infers a shared latent concept between examples in a prompt. We prove when this occurs despite a distribution mismatch between prompts and pretraining data in a setting where the pretraining distribution is a mixture of HMMs. In contrast to messy large-scale datasets used to train LMs capable of in-context learning, we generate a small-scale synthetic dataset (GINC) where Transformers and LSTMs both exhibit in-context learning. Beyond the theory, experiments on GINC exhibit large-scale real-world phenomena including improved in-context performance with model scaling (despite the same pretraining loss), sensitivity to example order, and instances where zero-shot is better than few-shot in-context learning.},
   langid = {english},
@@ -2373,6 +2500,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Online},
   doi = {10.18653/v1/2020.emnlp-main.432},
+  url = {https://www.aclweb.org/anthology/2020.emnlp-main.432},
   urldate = {2020-12-07},
   abstract = {We present the construction of a corpus of 500 Wikinews articles annotated with temporal dependency graphs (TDGs) that can be used to train systems to understand temporal relations in text. We argue that temporal dependency graphs, built on previous research on narrative times and temporal anaphora, provide a representation scheme that achieves a good trade-off between completeness and practicality in temporal annotation. We also provide a crowdsourcing strategy to annotate TDGs, and demonstrate the feasibility of this approach with an evaluation of the quality of the annotation, and the utility of the resulting data set by training a machine learning model on this data set. The data set is publicly available.},
   file = {C:\Users\frank\Zotero\storage\YZMIM33C\Yao et al_2020_Annotating Temporal Dependency Graphs via Crowdsourcing.pdf}
@@ -2387,6 +2515,7 @@
   eprint = {2209.00568},
   primaryclass = {cs},
   publisher = {arXiv},
+  url = {http://arxiv.org/abs/2209.00568},
   urldate = {2023-05-24},
   abstract = {Extracting temporal relationships between pairs of events in texts is a crucial yet challenging problem for natural language understanding. Depending on the distance between the events, models must learn to differently balance information from local and global contexts surrounding the event pair for temporal relation prediction. Learning how to fuse this information has proved challenging for transformer-based language models. Therefore, we present MulCo: Multi-Scale Contrastive Co-Training, a technique for the better fusion of local and global contextualized features. Our model uses a BERT-based language model to encode local context and a Graph Neural Network (GNN) to represent global document-level syntactic and temporal characteristics. Unlike previous state-of-the-art methods, which use simple concatenation on multi-view features or select optimal sentences using sophisticated reinforcement learning approaches, our model co-trains GNN and BERT modules using a multi-scale contrastive learning objective. The GNN and BERT modules learn a synergistic parameterization by contrasting GNN multi-layer multi-hop subgraphs (i.e., global context embeddings) and BERT outputs (i.e., local context embeddings) through end-to-end back-propagation. We empirically demonstrate that MulCo provides improved ability to fuse local and global contexts encoded using BERT and GNN compared to the current state-of-the-art. Our experimental results show that MulCo achieves new state-of-the-art results on several temporal relation extraction datasets.},
   archiveprefix = {arXiv},
@@ -2405,6 +2534,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Toronto, Canada},
   doi = {10.18653/v1/2023.bionlp-1.7},
+  url = {https://aclanthology.org/2023.bionlp-1.7/},
   urldate = {2026-02-06},
   abstract = {The goal of temporal relation extraction is to infer the temporal relation between two events in the document. Supervised models are dominant in this task. In this work, we investigate ChatGPT's ability on zero-shot temporal relation extraction. We designed three different prompt techniques to break down the task and evaluate ChatGPT. Our experiments show that ChatGPT's performance has a large gap with that of supervised methods and can heavily rely on the design of prompts. We further demonstrate that ChatGPT can infer more small relation classes correctly than supervised methods. The current shortcomings of ChatGPT on temporal relation extraction are also discussed in this paper. We found that ChatGPT cannot keep consistency during temporal inference and it fails in actively long-dependency temporal inference.},
   file = {C:\Users\frank\Zotero\storage\TRXABZEH\Yuan et al. - 2023 - Zero-shot Temporal Relation Extraction with ChatGPT.pdf}
@@ -2421,6 +2551,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Seattle, United States},
   doi = {10.18653/v1/2022.findings-naacl.29},
+  url = {https://aclanthology.org/2022.findings-naacl.29},
   urldate = {2024-02-15},
   abstract = {Extracting temporal relations (e.g., before, after, and simultaneous) among events is crucial to natural language understanding. One of the key challenges of this problem is that when the events of interest are far away in text, the context in-between often becomes complicated, making it challenging to resolve the temporal relationship between them. This paper thus proposes a new Syntax-guided Graph Transformer network (SGT) to mitigate this issue, by (1) explicitly exploiting the connection between two events based on their dependency parsing trees, and (2) automatically locating temporal cues between two events via a novel syntax-guided attention mechanism. Experiments on two benchmark datasets, MATRES and TB-DENSE, show that our approach significantly outperforms previous state-of-the-art methods on both end-to-end temporal relation extraction and temporal relation classification with up to 7.9\% absolute F-score gain; This improvement also proves to be robust on the contrast set of MATRES. We will make all the programs publicly available once the paper is accepted.},
   file = {C\:\\Users\\frank\\Zotero\\storage\\GFBT5CND\\Zhang et al_2022_Extracting Temporal Event Relation with Syntax-guided Graph Transformer.pdf;C\:\\Users\\frank\\Zotero\\storage\\KRFFCABR\\Zhang et al_2022_Extracting Temporal Event Relation with Syntax-guided Graph Transformer.pdf}
@@ -2436,6 +2567,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Brussels, Belgium},
   doi = {10.18653/v1/D18-1371},
+  url = {https://www.aclweb.org/anthology/D18-1371},
   urldate = {2020-12-09},
   abstract = {We design and build the first neural temporal dependency parser. It utilizes a neural ranking model with minimal feature engineering, and parses time expressions and events in a text into a temporal dependency tree structure. We evaluate our parser on two domains: news reports and narrative stories. In a parsing-only evaluation setup where gold time expressions and events are provided, our parser reaches 0.81 and 0.70 f-score on unlabeled and labeled parsing respectively, a result that is very competitive against alternative approaches. In an end-to-end evaluation setup where time expressions and events are automatically recognized, our parser beats two strong baselines on both data domains. Our experimental results and discussions shed light on the nature of temporal dependency structures in different domains and provide insights that we believe will be valuable to future research in this area.},
   file = {C:\Users\frank\Zotero\storage\FXZCCQ4P\Zhang_Xue_2018_Neural Ranking Models for Temporal Dependency Structure Parsing.pdf}
@@ -2449,6 +2581,7 @@
   month = may,
   publisher = {European Language Resources Association (ELRA)},
   address = {Miyazaki, Japan},
+  url = {https://www.aclweb.org/anthology/L18-1490},
   urldate = {2020-12-09},
   file = {C:\Users\frank\Zotero\storage\K2IFGAIM\Zhang_Xue_2018_Structured Interpretation of Temporal Relations.pdf}
 }
@@ -2462,6 +2595,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Hong Kong, China},
   doi = {10.18653/v1/d19-1332},
+  url = {https://www.aclweb.org/anthology/D19-1332},
   urldate = {2025-07-27},
   langid = {english},
   file = {C:\Users\frank\Zotero\storage\2QLVEX7N\Zhou et al. - 2019 - “Going on a vacation” takes longer than “Going for a walk” A Study of Temporal Commonsense Understa.pdf}
@@ -2474,6 +2608,7 @@
   author = {Zhou, Chunting and Liu, Pengfei and Xu, Puxin and Iyer, Srini and Sun, Jiao and Mao, Yuning and Ma, Xuezhe and Efrat, Avia and Yu, Ping and Yu, Lili and Zhang, Susan and Ghosh, Gargi and Lewis, Mike and Zettlemoyer, Luke and Levy, Omer},
   year = 2023,
   month = nov,
+  url = {https://openreview.net/forum?id=KBMOKmX2he},
   urldate = {2025-08-18},
   abstract = {Large language models are trained in two stages: (1) unsupervised pretraining from raw text, to learn general-purpose representations, and (2) large scale instruction tuning and reinforcement learning, to better align to end tasks and user preferences. We measure the relative importance of these two stages by training LIMA, a 65B parameter LLaMa language model fine-tuned with the standard supervised loss on only 1,000 carefully curated prompts and responses, without any reinforcement learning or human preference modeling. LIMA demonstrates remarkably strong performance, learning to follow specific response formats from only a handful of examples in the training data, including complex queries that range from planning trip itineraries to speculating about alternate history. Moreover, the model tends to generalize well to unseen tasks that did not appear in the training data. In a controlled human study, responses from LIMA are either equivalent or strictly preferred to GPT-4 in 43\textbackslash\% of cases; this statistic is as high as 58\textbackslash\% when compared to Bard and 65\textbackslash\% versus DaVinci003, which was trained with human feedback. Taken together, these results strongly suggest that almost all knowledge in large language models is learned during pretraining, and only limited instruction tuning data is necessary to teach models to produce high quality output.},
   langid = {english},
@@ -2490,6 +2625,7 @@
   publisher = {Association for Computational Linguistics},
   address = {Online},
   doi = {10.18653/v1/2021.naacl-main.107},
+  url = {https://aclanthology.org/2021.naacl-main.107},
   urldate = {2023-06-17},
   abstract = {We propose TRACIE, a novel temporal reasoning dataset that evaluates the degree to which systems understand implicit events---events that are not mentioned explicitly in natural language text but can be inferred from it. This introduces a new challenge in temporal reasoning research, where prior work has focused on explicitly mentioned events. Human readers can infer implicit events via commonsense reasoning, resulting in a more comprehensive understanding of the situation and, consequently, better reasoning about time. We find, however, that state-of-the-art models struggle when predicting temporal relationships between implicit and explicit events. To address this, we propose a neuro-symbolic temporal reasoning model, SymTime, which exploits distant supervision signals from large-scale text and uses temporal rules to combine start times and durations to infer end times. SymTime outperforms strong baseline systems on TRACIE by 5\%, and by 11\% in a zero prior knowledge training setting. Our approach also generalizes to other temporal reasoning tasks, as evidenced by a gain of 1\%-9\% on MATRES, an explicit event benchmark.},
   file = {C:\Users\frank\Zotero\storage\JE2I63Q2\Zhou et al_2021_Temporal Reasoning on Implicit Events from Distant Supervision.pdf}
