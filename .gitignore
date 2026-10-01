@@ -2,5 +2,8 @@ __pycache__/
 *.pyc
 *_cleaned.bib
 *_rebiber_tmp.bib
+*.cache.json
+*.cache.json.tmp
+.venv/
 nul
 .claude/
